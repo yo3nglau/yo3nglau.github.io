@@ -1,0 +1,37 @@
+baseurl: "/"
+languageCode: "en-us"
+title: "yo3nglau academic website"
+theme: "hugo-xmin"
+googleAnalytics: ""
+disqusShortname: ""
+ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
+footnotereturnlinkcontents: "↩"
+
+menu:
+  main:
+    - name: Home
+      url: ""
+      weight: 1
+    - name: Skimmed Papers
+      url: "papers/"
+      weight: 2
+    - name: Blogs
+      url: "blogs/"
+      weight: 3
+    - name: Practical Codes
+      url: "codes/"
+      weight: 4
+    - name: Miscellaneous
+      url: "miscellaneous/"
+      weight: 5
+
+params:
+  description: "With template [XMin](https://github.com/yihui/hugo-xmin) written by [Yihui Xie](https://yihui.org/) empowered by Hugo and blogdown."
+  footer: "&copy; yo3nglau {Year} | [Github](https://github.com/yihui)"
+
+markup:
+  highlight:
+    codeFences: false
+  goldmark:
+    renderer:
+      unsafe: true
