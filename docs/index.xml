@@ -5,52 +5,42 @@
     <link>/</link>
     <description>Recent content in Home on yo3nglau academic website</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Wed, 17 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
-      <link>/papers/symformer/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>End-to-end symbolic regression with transformers</title>
+      <link>/post/2023/05/17/end-to-end-symbolic-regression-with-transformers/</link>
+      <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
       
-      <guid>/papers/symformer/</guid>
-      <description>sadasdasdas</description>
+      <guid>/post/2023/05/17/end-to-end-symbolic-regression-with-transformers/</guid>
+      <description>End-to-end symbolic regression with transformers</description>
     </item>
     
     <item>
-      <title>Blogs</title>
-      <link>/blogs/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>SymFormer- End-to-end symbolic regression using transformer-based architecture</title>
+      <link>/post/2023/05/17/symformer-end-to-end-symbolic-regression-using-transformer-based-architecture/</link>
+      <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
       
-      <guid>/blogs/</guid>
-      <description>This page will show blogs in terms of any interest.</description>
+      <guid>/post/2023/05/17/symformer-end-to-end-symbolic-regression-using-transformer-based-architecture/</guid>
+      <description>SymFormer- End-to-end symbolic regression using transformer-based architecture</description>
     </item>
     
     <item>
-      <title>Miscellaneous</title>
-      <link>/miscellaneous/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>THE NEURO-SYMBOLIC CONCEPT LEARNER- INTERPRETING SCENES, WORDS, AND SENTENCES FROM NATURAL SUPERVISION</title>
+      <link>/post/2023/05/17/the-neuro-symbolic-concept-learner-interpreting-scenes-words-and-sentences-from-natural-supervision/</link>
+      <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
       
-      <guid>/miscellaneous/</guid>
-      <description>This page will show miscellaneous stuffs.
-The url.</description>
+      <guid>/post/2023/05/17/the-neuro-symbolic-concept-learner-interpreting-scenes-words-and-sentences-from-natural-supervision/</guid>
+      <description>THE NEURO-SYMBOLIC CONCEPT LEARNER- INTERPRETING SCENES, WORDS, AND SENTENCES FROM NATURAL SUPERVISION</description>
     </item>
     
     <item>
-      <title>Practical Codes</title>
-      <link>/codes/</link>
+      <title>About me</title>
+      <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/codes/</guid>
-      <description>This page will show practical codes.</description>
-    </item>
-    
-    <item>
-      <title>Skimmed Papers</title>
-      <link>/papers/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/papers/</guid>
-      <description>This page will show skimmed papers.
-Neural-Symbolic [SymFormer- End-to-end symbolic regression using transformer-based architecture](../papers/SymFormer- End-to-end symbolic regression using transformer-based architecture) THE NEURO-SYMBOLIC CONCEPT LEARNER- INTERPRETING SCENES, WORDS, AND SENTENCES FROM NATURAL SUPERVISION End-to-end symbolic regression with transformers </description>
+      <guid>/about/</guid>
+      <description>This page will show personal information.</description>
     </item>
     
   </channel>

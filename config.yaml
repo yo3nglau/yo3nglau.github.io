@@ -8,23 +8,23 @@ ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 footnotereturnlinkcontents: "↩"
 publishDir: "docs"
 
+permalinks:
+  post: "/post/:year/:month/:day/:slug/"
+
 menu:
   main:
     - name: Home
       url: ""
       weight: 1
-    - name: Skimmed Papers
-      url: "papers/"
+    - name: About
+      url: "about/"
       weight: 2
-    - name: Blogs
-      url: "blogs/"
+    - name: Categories
+      url: "categories/"
       weight: 3
-    - name: Practical Codes
-      url: "codes/"
+    - name: Tags
+      url: "tags/"
       weight: 4
-    - name: Miscellaneous
-      url: "miscellaneous/"
-      weight: 5
 
 params:
   description: "With template [XMin](https://github.com/yihui/hugo-xmin) written by [Yihui Xie](https://yihui.org/) empowered by Hugo and blogdown."

@@ -2,22 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/papers/symformer/</loc>
-  </url><url>
-    <loc>/blogs/</loc>
-  </url><url>
     <loc>/categories/</loc>
+    <lastmod>2023-05-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/2023/05/17/end-to-end-symbolic-regression-with-transformers/</loc>
+    <lastmod>2023-05-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/</loc>
+    <lastmod>2023-05-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/miscellaneous/</loc>
+    <loc>/tags/neural-symbolic/</loc>
+    <lastmod>2023-05-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/papers/</loc>
+    <loc>/categories/neural-symbolic/</loc>
+    <lastmod>2023-05-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/codes/</loc>
+    <loc>/post/</loc>
+    <lastmod>2023-05-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/papers/</loc>
+    <loc>/post/2023/05/17/symformer-end-to-end-symbolic-regression-using-transformer-based-architecture/</loc>
+    <lastmod>2023-05-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
+    <lastmod>2023-05-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/2023/05/17/the-neuro-symbolic-concept-learner-interpreting-scenes-words-and-sentences-from-natural-supervision/</loc>
+    <lastmod>2023-05-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/about/</loc>
   </url>
 </urlset>
