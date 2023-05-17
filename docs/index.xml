@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on yo3nglau academic website</title>
+    <link>/</link>
+    <description>Recent content in Home on yo3nglau academic website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>/papers/symformer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/symformer/</guid>
+      <description>sadasdasdas</description>
+    </item>
+    
+    <item>
+      <title>Blogs</title>
+      <link>/blogs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/blogs/</guid>
+      <description>This page will show blogs in terms of any interest.</description>
+    </item>
+    
+    <item>
+      <title>Miscellaneous</title>
+      <link>/miscellaneous/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/miscellaneous/</guid>
+      <description>This page will show miscellaneous stuffs.
+The url.</description>
+    </item>
+    
+    <item>
+      <title>Practical Codes</title>
+      <link>/codes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/codes/</guid>
+      <description>This page will show practical codes.</description>
+    </item>
+    
+    <item>
+      <title>Skimmed Papers</title>
+      <link>/papers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/</guid>
+      <description>This page will show skimmed papers.
+Neural-Symbolic [SymFormer- End-to-end symbolic regression using transformer-based architecture](../papers/SymFormer- End-to-end symbolic regression using transformer-based architecture) THE NEURO-SYMBOLIC CONCEPT LEARNER- INTERPRETING SCENES, WORDS, AND SENTENCES FROM NATURAL SUPERVISION End-to-end symbolic regression with transformers </description>
+    </item>
+    
+  </channel>
+</rss>
