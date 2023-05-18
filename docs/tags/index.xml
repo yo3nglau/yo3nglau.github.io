@@ -17,15 +17,6 @@
     </item>
     
     <item>
-      <title>Chung</title>
-      <link>/tags/chung/</link>
-      <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/chung/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>ICCV</title>
       <link>/tags/iccv/</link>
       <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
@@ -35,11 +26,38 @@
     </item>
     
     <item>
+      <title>ICLR</title>
+      <link>/tags/iclr/</link>
+      <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/iclr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Neural-Symbolic</title>
       <link>/tags/neural-symbolic/</link>
       <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
       
       <guid>/tags/neural-symbolic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NeurIPS</title>
+      <link>/tags/neurips/</link>
+      <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/neurips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transformer</title>
+      <link>/tags/transformer/</link>
+      <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/transformer/</guid>
       <description></description>
     </item>
     
