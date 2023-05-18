@@ -5,6 +5,11 @@ body {
   line-height: 1.5;
 }
 
+a:link {color: #3366BB}
+a:visited {color: #3366BB}
+a:hover {color: #663366}
+a:active {color: #663366}
+
 /* header and footer areas */
 .menu { padding: 0; }
 .menu li { display: inline-block; }
@@ -21,6 +26,11 @@ footer a { text-decoration: none; }
 hr {
   border-style: dashed;
   color: #ddd;
+}
+
+#TableOfContents, #TOC {
+  border: 1px solid #eee;
+  border-radius: 5px;
 }
 
 /* code */

@@ -8,6 +8,28 @@
     <language>en-us</language>
     <lastBuildDate>Wed, 17 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>\[arXiv 22&#39;\] SymFormer- End-to-end symbolic regression using transformer-based architecture</title>
+      <link>/post/2023/05/17//arxiv-22/-symformer-end-to-end-symbolic-regression-using-transformer-based-architecture/</link>
+      <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2023/05/17//arxiv-22/-symformer-end-to-end-symbolic-regression-using-transformer-based-architecture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>\[ICCV 21&#39;\] Calibrating Concepts and Operations- Towards Symbolic Reasoning on Real Images</title>
+      <link>/post/2023/05/17//iccv-21/-calibrating-concepts-and-operations-towards-symbolic-reasoning-on-real-images/</link>
+      <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2023/05/17//iccv-21/-calibrating-concepts-and-operations-towards-symbolic-reasoning-on-real-images/</guid>
+      <description>Overview ![image-20230518161942294](https://github.com/yo3nglau/yo3nglau.github.io/tree/main/docs/post[ICCV 21&amp;rsquo;] Calibrating Concepts and Operations- Towards Symbolic Reasoning on Real Images.assets\image-20230518161942294.png)
+![image-20230518162157181](D:\Git\Repository\yo3nglau.github.io\themes\hugo-xmin\content\post[ICCV 21&amp;rsquo;] Calibrating Concepts and Operations- Towards Symbolic Reasoning on Real Images.assets\image-20230518162157181.png)
+Framework ![image-20230518162053867](D:\Git\Repository\yo3nglau.github.io\themes\hugo-xmin\content\post[ICCV 21&amp;rsquo;] Calibrating Concepts and Operations- Towards Symbolic Reasoning on Real Images.assets\image-20230518162053867.png)
+Resources Paper
+Code</description>
+    </item>
+    
+    <item>
       <title>End-to-end symbolic regression with transformers</title>
       <link>/post/2023/05/17/end-to-end-symbolic-regression-with-transformers/</link>
       <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
@@ -17,21 +39,12 @@
     </item>
     
     <item>
-      <title>SymFormer- End-to-end symbolic regression using transformer-based architecture</title>
-      <link>/post/2023/05/17/symformer-end-to-end-symbolic-regression-using-transformer-based-architecture/</link>
-      <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/post/2023/05/17/symformer-end-to-end-symbolic-regression-using-transformer-based-architecture/</guid>
-      <description>SymFormer- End-to-end symbolic regression using transformer-based architecture</description>
-    </item>
-    
-    <item>
       <title>THE NEURO-SYMBOLIC CONCEPT LEARNER- INTERPRETING SCENES, WORDS, AND SENTENCES FROM NATURAL SUPERVISION</title>
       <link>/post/2023/05/17/the-neuro-symbolic-concept-learner-interpreting-scenes-words-and-sentences-from-natural-supervision/</link>
       <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
       
       <guid>/post/2023/05/17/the-neuro-symbolic-concept-learner-interpreting-scenes-words-and-sentences-from-natural-supervision/</guid>
-      <description>THE NEURO-SYMBOLIC CONCEPT LEARNER- INTERPRETING SCENES, WORDS, AND SENTENCES FROM NATURAL SUPERVISION</description>
+      <description></description>
     </item>
     
   </channel>

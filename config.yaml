@@ -28,7 +28,7 @@ menu:
 
 params:
   description: "With template [XMin](https://github.com/yihui/hugo-xmin) written by [Yihui Xie](https://yihui.org/) empowered by Hugo and blogdown."
-  footer: "&copy; yo3nglau {Year} | [Github](https://yo3nglau.github.io/) | Inspired by [XMin](https://github.com/yihui/hugo-xmin)"
+  footer: "&copy; [yo3nglau](https://github.com/yo3nglau) {Year} | [Hugo](https://gohugo.io/) | [XMin](https://github.com/yihui/hugo-xmin)"
 
 markup:
   highlight:
