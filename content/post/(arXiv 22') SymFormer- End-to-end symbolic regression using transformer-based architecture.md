@@ -20,13 +20,6 @@ toc: true
 
 **Note: May include buzz word and potential literature.**
 
-```python
-import torch
-print("yes")
-```
-
-
-
 ## Resources
 
 [Paper](), [Code]()
