@@ -3,12 +3,11 @@ languageCode: "en-us"
 title: "yo3nglau academic website"
 googleAnalytics: ""
 disqusShortname: ""
-ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 footnotereturnlinkcontents: "↩"
 publishDir: "docs"
 
 permalinks:
-  post: "/post/:year/:month/:day/:slug/"
+  # post: "/post/:year/:month/:day/:slug/"
 
 menu:
   main:
