@@ -41,5 +41,16 @@ by using git-add to incrementally &amp;ldquo;add&amp;rdquo; changes to the index
 Description Displays paths that have differences between the index file and the current HEAD commit, paths that have differences between the working tree and the index file, and paths in the working tree that are not tracked by Git. The first are what you would commit by running git commit; the second and third are what you could commit by running git add before running git commit.</description>
     </item>
     
+    <item>
+      <title>MINC</title>
+      <link>/post/minc/</link>
+      <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/post/minc/</guid>
+      <description>TLDR The MINC refers to a specific file format and toolbox dealing with multiple file formats from varying scanners and research groups.
+Description The MINC file format and toolbox was originally conceived, written and released by Peter Neelin in 1992 due to the frustrations of dealing with multiple file formats from varying scanners and research groups.
+In the ensuing years many associated tools (image registration, normalization, visualization, etc.) were written and have also been released.</description>
+    </item>
+    
   </channel>
 </rss>

@@ -8,6 +8,17 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 22 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Categories and Tags in Blogs</title>
+      <link>/post/categories-and-tags-in-blogs/</link>
+      <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/post/categories-and-tags-in-blogs/</guid>
+      <description>TLDR Categories are broad topics that help you organize your blog posts, and help readers find the information they’re seeking on your site.
+Tags are a simple way to drill down on the topic of any given blog post that’s part of a category.
+Description These two words may be used interchangeably, but they are not the same thing. The difference is simple: A category is a broad topic you cover in your blog.</description>
+    </item>
+    
+    <item>
       <title>git add</title>
       <link>/post/git-add/</link>
       <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
@@ -39,6 +50,17 @@ by using git-add to incrementally &amp;ldquo;add&amp;rdquo; changes to the index
       <guid>/post/git-status/</guid>
       <description>Name git-status - Show the working tree status
 Description Displays paths that have differences between the index file and the current HEAD commit, paths that have differences between the working tree and the index file, and paths in the working tree that are not tracked by Git. The first are what you would commit by running git commit; the second and third are what you could commit by running git add before running git commit.</description>
+    </item>
+    
+    <item>
+      <title>MINC</title>
+      <link>/post/minc/</link>
+      <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/post/minc/</guid>
+      <description>TLDR The MINC refers to a specific file format and toolbox dealing with multiple file formats from varying scanners and research groups.
+Description The MINC file format and toolbox was originally conceived, written and released by Peter Neelin in 1992 due to the frustrations of dealing with multiple file formats from varying scanners and research groups.
+In the ensuing years many associated tools (image registration, normalization, visualization, etc.) were written and have also been released.</description>
     </item>
     
     <item>
