@@ -6,7 +6,7 @@
     <title>ICLR | yo3nglau academic website</title>
     <link rel="stylesheet" href='/css/style.css' />
     <link rel="stylesheet" href='/css/fonts.css' />
-    
+    <link href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/github.min.css" rel="stylesheet">
   </head>
 
   <body>
@@ -44,7 +44,13 @@
 </ul>
 
   <footer>
-  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/languages/r.min.js"></script>
+
+<script>
+hljs.configure({languages: []});
+hljs.initHighlightingOnLoad();
+</script>
   
   <hr/>
   © <a href="https://github.com/yo3nglau">yo3nglau</a> 2023 | <a href="https://gohugo.io/">Hugo</a> | <a href="https://github.com/yihui/hugo-xmin">XMin</a>
