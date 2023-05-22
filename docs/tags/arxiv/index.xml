@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>arXiv on yo3nglau academic website</title>
+    <link>/tags/arxiv/</link>
+    <description>Recent content in arXiv on yo3nglau academic website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 17 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/arxiv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>(arXiv 22&#39;) SymFormer- End-to-end symbolic regression using transformer-based architecture</title>
+      <link>/post/arxiv-22-symformer-end-to-end-symbolic-regression-using-transformer-based-architecture/</link>
+      <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/post/arxiv-22-symformer-end-to-end-symbolic-regression-using-transformer-based-architecture/</guid>
+      <description>Overview Framework Unfamiliar Knowledge Note: May include buzz word and potential literature.
+Resources Paper, Code
+Elementary drafts Note: May contain Chinese. This section will disappear once all drafts are embellished.
+collapsed contentssomething一些草稿</description>
+    </item>
+    
+  </channel>
+</rss>
