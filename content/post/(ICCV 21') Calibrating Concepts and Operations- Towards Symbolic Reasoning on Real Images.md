@@ -1,5 +1,5 @@
 ---
-title: \[ICCV 21'\] Calibrating Concepts and Operations- Towards Symbolic Reasoning on Real Images
+title: (ICCV 21') Calibrating Concepts and Operations- Towards Symbolic Reasoning on Real Images
 author: yo3nglau
 date: '2023-05-17'
 categories:

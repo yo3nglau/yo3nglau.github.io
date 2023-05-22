@@ -1,12 +1,13 @@
 ---
-title: \[arXiv 22'\] SymFormer- End-to-end symbolic regression using transformer-based architecture
+title: (NeurIPS 22') End-to-end symbolic regression with transformers
 author: yo3nglau
 date: '2023-05-17'
 categories:
   - Skimmed Papers
 tags:
   - Neural-Symbolic
-  - arXiv
+  - Transformer
+  - NeurIPS
 toc: true
 ---
 
