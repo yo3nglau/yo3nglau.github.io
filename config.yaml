@@ -1,7 +1,6 @@
 baseurl: "/"
 languageCode: "en-us"
 title: "yo3nglau academic website"
-theme: "hugo-xmin"
 googleAnalytics: ""
 disqusShortname: ""
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
