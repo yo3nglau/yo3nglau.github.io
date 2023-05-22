@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/categories/</loc>
+    <lastmod>2023-05-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/git-add/</loc>
+    <lastmod>2023-05-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/git-commands/</loc>
+    <lastmod>2023-05-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/git-commit/</loc>
+    <lastmod>2023-05-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/git-status/</loc>
+    <lastmod>2023-05-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2023-05-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/</loc>
+    <lastmod>2023-05-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2023-05-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/technical-blogs/</loc>
+    <lastmod>2023-05-22T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/post/arxiv-22-symformer-end-to-end-symbolic-regression-using-transformer-based-architecture/</loc>
     <lastmod>2023-05-17T00:00:00+00:00</lastmod>
   </url><url>
@@ -17,12 +44,6 @@
     <loc>/tags/arxiv/</loc>
     <lastmod>2023-05-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
-    <lastmod>2023-05-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/</loc>
-    <lastmod>2023-05-17T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/tags/iccv/</loc>
     <lastmod>2023-05-17T00:00:00+00:00</lastmod>
   </url><url>
@@ -35,13 +56,7 @@
     <loc>/tags/neurips/</loc>
     <lastmod>2023-05-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/</loc>
-    <lastmod>2023-05-17T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/categories/skimmed-papers/</loc>
-    <lastmod>2023-05-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2023-05-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/transformer/</loc>

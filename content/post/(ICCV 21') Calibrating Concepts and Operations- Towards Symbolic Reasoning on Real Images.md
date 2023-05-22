@@ -45,3 +45,4 @@ Figure 3: Overview of our method. We first parse the image into a symbolic scene
 		<br>
 		一些草稿
 </details>
+{{< embed-pdf url="../../pdfs/Calibrating Concepts and Operations- Towards Symbolic Reasoning on Real Images.pdf" >}}

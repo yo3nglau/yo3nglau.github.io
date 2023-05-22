@@ -34,5 +34,3 @@ toc: true
 		<br>
 		一些草稿
 </details>
-{{< embed-pdf url="../1.pdf" >}}
-
