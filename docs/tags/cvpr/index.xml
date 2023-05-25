@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Transformer on yo3nglau academic website</title>
-    <link>/tags/transformer/</link>
-    <description>Recent content in Transformer on yo3nglau academic website</description>
+    <title>CVPR on yo3nglau academic website</title>
+    <link>/tags/cvpr/</link>
+    <description>Recent content in CVPR on yo3nglau academic website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/transformer/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/cvpr/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>(CVPR 23&#39;) RGB no more- Minimally-decoded JPEG Vision Transformers</title>
       <link>/post/cvpr-23-rgb-no-more-minimally-decoded-jpeg-vision-transformers/</link>
@@ -15,18 +15,6 @@
       <guid>/post/cvpr-23-rgb-no-more-minimally-decoded-jpeg-vision-transformers/</guid>
       <description>Overview Motivation Most neural networks for computer vision are designed to infer using RGB images. However, these RGB images are commonly encoded in JPEG before saving to disk; decoding them imposes an unavoidable overhead for RGB networks.
 &amp;ldquo;Figure 2. Process of applying 8 × 8 DCT to the input image. The input image is sliced into 8 × 8 patches and the DCT is applied to each patch. The DCT bases are shown on the right.</description>
-    </item>
-    
-    <item>
-      <title>(NeurIPS 22&#39;) End-to-end symbolic regression with transformers</title>
-      <link>/post/neurips-22-end-to-end-symbolic-regression-with-transformers/</link>
-      <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/post/neurips-22-end-to-end-symbolic-regression-with-transformers/</guid>
-      <description>Overview Framework Unfamiliar knowledge Note: May include buzz word and potential literature.
-Resources Paper, Code
-Elementary drafts Note: May contain Chinese. This section will disappear once all drafts are embellished.
-collapsed contentssomething一些草稿</description>
     </item>
     
   </channel>

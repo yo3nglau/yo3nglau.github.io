@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>(arXiv 22&#39;) SymFormer- End-to-end symbolic regression using transformer-based architecture | yo3nglau academic website</title>
+    <title>(CVPR 23&#39;) RGB no more- Minimally-decoded JPEG Vision Transformers | yo3nglau academic website</title>
     <link rel="stylesheet" href='/css/style.css' />
     <link rel="stylesheet" href='/css/fonts.css' />
     <link href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/github.min.css" rel="stylesheet">
@@ -26,7 +26,7 @@
     </nav>
 
 <div class="article-meta">
-<h1><span class="title">(arXiv 22&rsquo;) SymFormer- End-to-end symbolic regression using transformer-based architecture</span></h1>
+<h1><span class="title">(CVPR 23&rsquo;) RGB no more- Minimally-decoded JPEG Vision Transformers</span></h1>
 <h2 class="author">yo3nglau</h2>
 <h2 class="date">2023/05/25</h2>
 <p class="terms">
@@ -36,7 +36,7 @@
   
   
   
-  Tags: <a href="/tags/neural-symbolic">Neural-Symbolic</a> <a href="/tags/arxiv">arXiv</a> 
+  Tags: <a href="/tags/transformer">Transformer</a> <a href="/tags/cvpr">CVPR</a> 
   
   
 </p>
@@ -52,9 +52,10 @@
       </ul>
     </li>
     <li><a href="#framework">Framework</a></li>
-    <li><a href="#methods">Methods</a>
+    <li><a href="#arguments">Arguments</a>
       <ul>
-        <li><a href="#benchmark-functions">Benchmark functions</a></li>
+        <li><a href="#dct-inputs">DCT inputs</a></li>
+        <li><a href="#augmentation">Augmentation</a></li>
       </ul>
     </li>
     <li><a href="#unfamiliar-knowledge">Unfamiliar knowledge</a></li>
@@ -67,26 +68,37 @@
 <main>
 <h2 id="overview">Overview</h2>
 <h3 id="motivation">Motivation</h3>
-<img src="https://s1.ax1x.com/2023/05/24/p97B3pF.png" style="zoom:90%;" />
-<p>Many real-world problems can be naturally described by mathematical formulas. The task of finding formulas from a set of observed inputs and outputs is called <em>symbolic regression</em>.</p>
-<p>Neural networks have been applied to symbolic regression, among which the transformer-based ones seem to be the most promising. However, the main drawback of transformers is that they generate formulas without numerical constants, which have to be optimized separately, so yielding suboptimal results.</p>
+<p>Most neural networks for computer vision are designed to infer using RGB images. However, these RGB images are commonly encoded in JPEG before saving to disk; <em>decoding them imposes an unavoidable overhead for RGB networks</em>.</p>
+<p><img src="https://s1.ax1x.com/2023/05/25/p9beui6.png" alt=""></p>
+<p>&ldquo;Figure 2. Process of applying 8 × 8 DCT to the input image. The input image is sliced into 8 × 8 patches and the DCT is applied to each patch. The DCT bases are shown on the right.&rdquo;</p>
 <h3 id="resolution">Resolution</h3>
-<p>This work proposes a transformer-based approach called <strong>SymFormer</strong>, which predicts the formula by <em>outputting the individual symbols and the corresponding constants simultaneously</em>.</p>
-<p>The model is trained on hundreds of millions of formulas to be able to generate a symbolic representation of a previously unseen formula given a set of input-output pairs efficiently. It jointly predicts the symbolic representation of a function and the values of all constants in a single forward pass of a neural network. A local gradient search is used to improve constants further to fit the input points better.</p>
-<p>The model generates both the symbolic representation of the formula and the concrete values for all constants at the same time. This allows the symbolic decoder to condition on the generated constants and it improves the quality of the symbolic representation. The generated constants are used to initialize the local gradient search to fine-tune the final constants effectively and reliably.</p>
+<p>This work focuses on training Vision Transformers <strong>directly from the encoded features of JPEG</strong>, which avoids most of the decoding overhead, accelerating data load. In addition, authors tackle <strong>data augmentation</strong> directly on these encoded features, which has not been explored in-depth for training in this setting.</p>
 <h2 id="framework">Framework</h2>
-<p><img src="https://s1.ax1x.com/2023/05/24/p97B8l4.png" alt=""></p>
-<p>&ldquo;Figure 1: Schematic diagram of inference. The input points are passed through the transformer, generating several candidate equations using Top-K sampling. These candidates are further improved using gradient descent. The final equation is then selected by the lowest mean squared error.&rdquo;</p>
-<h2 id="methods">Methods</h2>
-<h3 id="benchmark-functions">Benchmark functions</h3>
-<p>&ldquo;Table 5: Benchmark functions that we have used in our experiments. We have restricted ourselves only to the univariate and bivariate functions.&rdquo;</p>
-<img src="https://s1.ax1x.com/2023/05/24/p97yDUI.png" style="zoom:80%;" />
-<img src="https://s1.ax1x.com/2023/05/24/p97yBVA.png" style="zoom:80%;" />
+<p><img src="https://s1.ax1x.com/2023/05/25/p9beKJK.png" alt=""></p>
+<p>&ldquo;Figure 4. Proposed model architectures. We first collect 8×8 DCT blocks until it matches the patch size. Then, these blocks are embedded through the different architectures. Grouped architecture groups all of the collected blocks and embeds them together. Separate architecture embeds each block separately and mixes it. Concatenation architecture embeds <strong>Y</strong> and <strong>U</strong> separately and concatenates them.&rdquo;</p>
+<p><img src="https://s1.ax1x.com/2023/05/25/p9beMRO.png" alt=""></p>
+<p>&ldquo;Figure 1. Our proposed training process. The typical process requires full decoding as well as patch extraction to train. In contrast, our process does not since the DCT coefficients are already saved in block-wise fashion. As ViTs work on image patches, we can directly feed these coefficients to the network.&rdquo;</p>
+<h2 id="arguments">Arguments</h2>
+<h3 id="dct-inputs">DCT inputs</h3>
+<p>Data is typically loaded by the CPU while the network runs on a GPU or other accelerator; more efficient data loading can thus <strong>reduce CPU bottlenecks</strong> and accelerate the entire pipeline.</p>
+<p>Authors show that ViTs can be <strong>easily adapted to DCT inputs</strong> by modifying only the initial patch embedding layer and leaving the rest of the architecture unchanged.</p>
+<h3 id="augmentation">Augmentation</h3>
+<p>Some standard augmentations such as image rotation and shearing are costly to implement in DCT, so authors also introduce several new augmentations which are natural for DCT.</p>
+<img src="https://s1.ax1x.com/2023/05/25/p9bemIx.png" style="zoom:80%;" />
+<p>Figure 5. A visualization of different DCT augmentation types. Orange-colored coefficients are augmented and saved as bluecolored ones. The bottom two examples illustrate <em>Translate</em> and <em>Resize</em> augmentation.</p>
 <h2 id="unfamiliar-knowledge">Unfamiliar knowledge</h2>
 <p><strong>Note: May include buzz word and potential literature.</strong></p>
-<p>local gradient search</p>
+<p>JPEG files store image data using Huffman codes</p>
+<p>discrete cosine transform (DCT)</p>
+<p>luma data and chroma data</p>
+<p>[Paper] Faster Neural Networks Straight from JPEG.</p>
+<p>[Paper] Learning in the frequency domain.</p>
+<p>[Paper] Randaugment: Practical automated data augmentation with a reduced search space.</p>
+<p>video codecs</p>
+<p>YCbCr color space</p>
+<p>Run-length encoding(RLE)</p>
 <h2 id="resources">Resources</h2>
-<p><a href="">Paper</a>, <a href="">Code</a></p>
+<p><a href="https://arxiv.org/abs/2211.16421">Paper</a>, <a href="">Code</a></p>
 <h2 id="elementary-drafts">Elementary drafts</h2>
 <p><strong>Note: May contain Chinese. This section will disappear once all drafts are embellished.</strong></p>
 <details>
@@ -177,36 +189,36 @@
   @-webkit-keyframes spin {
     to { -webkit-transform: rotate(360deg); }
   }
-  </style><div class="embed-pdf-container" id="embed-pdf-container-f6bd4510">
-    <div class="pdf-loadingWrapper" id="pdf-loadingWrapper-f6bd4510">
-        <div class="pdf-loading" id="pdf-loading-f6bd4510"></div>
+  </style><div class="embed-pdf-container" id="embed-pdf-container-a4585f76">
+    <div class="pdf-loadingWrapper" id="pdf-loadingWrapper-a4585f76">
+        <div class="pdf-loading" id="pdf-loading-a4585f76"></div>
     </div>
     <div id="overlayText">
-      <a href="../../pdfs/SymFormer-%20End-to-end%20symbolic%20regression%20using%20transformer-based%20architecture.pdf" aria-label="Download" download>
+      <a href="../../pdfs/RGB%20no%20more-%20Minimally-decoded%20JPEG%20Vision%20Transformers.pdf" aria-label="Download" download>
         <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
             <path d="M9 13c.3 0 .5-.1.7-.3L15.4 7 14 5.6l-4 4V1H8v8.6l-4-4L2.6 7l5.7 5.7c.2.2.4.3.7.3zm-7 2h14v2H2z" />
         </svg>
       </a>
     </div>
-    <canvas class="pdf-canvas" id="pdf-canvas-f6bd4510"></canvas>
+    <canvas class="pdf-canvas" id="pdf-canvas-a4585f76"></canvas>
 </div>
 
-<div class="pdf-paginator" id="pdf-paginator-f6bd4510">
-    <button id="pdf-prev-f6bd4510">Previous</button>
-    <button id="pdf-next-f6bd4510">Next</button> &nbsp; &nbsp;
+<div class="pdf-paginator" id="pdf-paginator-a4585f76">
+    <button id="pdf-prev-a4585f76">Previous</button>
+    <button id="pdf-next-a4585f76">Next</button> &nbsp; &nbsp;
     <span>
-      <span class="pdf-pagenum" id="pdf-pagenum-f6bd4510"></span> / <span class="pdf-pagecount" id="pdf-pagecount-f6bd4510"></span>
+      <span class="pdf-pagenum" id="pdf-pagenum-a4585f76"></span> / <span class="pdf-pagecount" id="pdf-pagecount-a4585f76"></span>
     </span>
-    <a class="pdf-source" id="pdf-source-f6bd4510" href="../../pdfs/SymFormer-%20End-to-end%20symbolic%20regression%20using%20transformer-based%20architecture.pdf">[pdf]</a>
+    <a class="pdf-source" id="pdf-source-a4585f76" href="../../pdfs/RGB%20no%20more-%20Minimally-decoded%20JPEG%20Vision%20Transformers.pdf">[pdf]</a>
 </div>
 
 <noscript>
-View the PDF file <a class="pdf-source" id="pdf-source-noscript-f6bd4510" href="../../pdfs/SymFormer-%20End-to-end%20symbolic%20regression%20using%20transformer-based%20architecture.pdf">here</a>.
+View the PDF file <a class="pdf-source" id="pdf-source-noscript-a4585f76" href="../../pdfs/RGB%20no%20more-%20Minimally-decoded%20JPEG%20Vision%20Transformers.pdf">here</a>.
 </noscript>
 
 <script type="text/javascript">
     (function(){
-    var url = '..\/..\/pdfs\/SymFormer- End-to-end symbolic regression using transformer-based architecture.pdf';
+    var url = '..\/..\/pdfs\/RGB no more- Minimally-decoded JPEG Vision Transformers.pdf';
 
     var hidePaginator = "" === "true";
     var hideLoader = "" === "true";
@@ -225,10 +237,10 @@ View the PDF file <a class="pdf-source" id="pdf-source-noscript-f6bd4510" href="
         pageRendering = false,
         pageNumPending = null,
         scale = 3,
-        canvas = document.getElementById('pdf-canvas-f6bd4510'),
+        canvas = document.getElementById('pdf-canvas-a4585f76'),
         ctx = canvas.getContext('2d'),
-        paginator = document.getElementById("pdf-paginator-f6bd4510"),
-        loadingWrapper = document.getElementById('pdf-loadingWrapper-f6bd4510');
+        paginator = document.getElementById("pdf-paginator-a4585f76"),
+        loadingWrapper = document.getElementById('pdf-loadingWrapper-a4585f76');
 
 
     
@@ -266,7 +278,7 @@ View the PDF file <a class="pdf-source" id="pdf-source-noscript-f6bd4510" href="
       });
 
       
-      document.getElementById('pdf-pagenum-f6bd4510').textContent = num;
+      document.getElementById('pdf-pagenum-a4585f76').textContent = num;
     }
 
     
@@ -310,7 +322,7 @@ View the PDF file <a class="pdf-source" id="pdf-source-noscript-f6bd4510" href="
       pageNum--;
       queueRenderPage(pageNum);
     }
-    document.getElementById('pdf-prev-f6bd4510').addEventListener('click', onPrevPage);
+    document.getElementById('pdf-prev-a4585f76').addEventListener('click', onPrevPage);
 
     
 
@@ -321,14 +333,14 @@ View the PDF file <a class="pdf-source" id="pdf-source-noscript-f6bd4510" href="
       pageNum++;
       queueRenderPage(pageNum);
     }
-    document.getElementById('pdf-next-f6bd4510').addEventListener('click', onNextPage);
+    document.getElementById('pdf-next-a4585f76').addEventListener('click', onNextPage);
 
     
 
     pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
       pdfDoc = pdfDoc_;
       var numPages = pdfDoc.numPages;
-      document.getElementById('pdf-pagecount-f6bd4510').textContent = numPages;
+      document.getElementById('pdf-pagecount-a4585f76').textContent = numPages;
 
       
       if(pageNum > numPages) {

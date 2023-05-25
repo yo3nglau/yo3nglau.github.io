@@ -17,11 +17,29 @@
     </item>
     
     <item>
+      <title>CVPR</title>
+      <link>/tags/cvpr/</link>
+      <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/cvpr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Neural-Symbolic</title>
       <link>/tags/neural-symbolic/</link>
       <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
       
       <guid>/tags/neural-symbolic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transformer</title>
+      <link>/tags/transformer/</link>
+      <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/transformer/</guid>
       <description></description>
     </item>
     
@@ -58,15 +76,6 @@
       <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
       
       <guid>/tags/neurips/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Transformer</title>
-      <link>/tags/transformer/</link>
-      <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/transformer/</guid>
       <description></description>
     </item>
     
