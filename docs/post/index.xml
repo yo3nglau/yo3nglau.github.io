@@ -6,7 +6,36 @@
     <description>Recent content in Posts on yo3nglau academic website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>(arXiv 22&#39;) SymFormer- End-to-end symbolic regression using transformer-based architecture</title>
+      <link>/post/arxiv-22-rgb-no-more-minimally-decoded-jpeg-vision-transformers/</link>
+      <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/post/arxiv-22-rgb-no-more-minimally-decoded-jpeg-vision-transformers/</guid>
+      <description>Overview Motivation Many real-world problems can be naturally described by mathematical formulas. The task of finding formulas from a set of observed inputs and outputs is called symbolic regression.
+Neural networks have been applied to symbolic regression, among which the transformer-based ones seem to be the most promising. However, the main drawback of transformers is that they generate formulas without numerical constants, which have to be optimized separately, so yielding suboptimal results.</description>
+    </item>
+    
+    <item>
+      <title>(arXiv 22&#39;) SymFormer- End-to-end symbolic regression using transformer-based architecture</title>
+      <link>/post/cvpr-23-symformer-end-to-end-symbolic-regression-using-transformer-based-architecture-copy/</link>
+      <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/post/cvpr-23-symformer-end-to-end-symbolic-regression-using-transformer-based-architecture-copy/</guid>
+      <description>Overview Motivation Many real-world problems can be naturally described by mathematical formulas. The task of finding formulas from a set of observed inputs and outputs is called symbolic regression.
+Neural networks have been applied to symbolic regression, among which the transformer-based ones seem to be the most promising. However, the main drawback of transformers is that they generate formulas without numerical constants, which have to be optimized separately, so yielding suboptimal results.</description>
+    </item>
+    
+    <item>
+      <title>Clear Specific Website Cache in Google Chrome</title>
+      <link>/post/clear-specific-website-cache-in-google-chrome/</link>
+      <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/post/clear-specific-website-cache-in-google-chrome/</guid>
+      <description>Method Press F12 to reach developer toolbox Choose Network Disable cache Press and hold reload button on the left top of Chrome Choose Empty Cache and Hard Reload </description>
+    </item>
+    
     <item>
       <title>Categories and Tags in Blogs</title>
       <link>/post/categories-and-tags-in-blogs/</link>
@@ -53,26 +82,14 @@ Description Displays paths that have differences between the index file and the 
     </item>
     
     <item>
-      <title>MINC</title>
-      <link>/post/minc/</link>
+      <title>MINC file format</title>
+      <link>/post/minc-file-format/</link>
       <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
       
-      <guid>/post/minc/</guid>
+      <guid>/post/minc-file-format/</guid>
       <description>TLDR The MINC refers to a specific file format and toolbox dealing with multiple file formats from varying scanners and research groups.
 Description The MINC file format and toolbox was originally conceived, written and released by Peter Neelin in 1992 due to the frustrations of dealing with multiple file formats from varying scanners and research groups.
 In the ensuing years many associated tools (image registration, normalization, visualization, etc.) were written and have also been released.</description>
-    </item>
-    
-    <item>
-      <title>(arXiv 22&#39;) SymFormer- End-to-end symbolic regression using transformer-based architecture</title>
-      <link>/post/arxiv-22-symformer-end-to-end-symbolic-regression-using-transformer-based-architecture/</link>
-      <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/post/arxiv-22-symformer-end-to-end-symbolic-regression-using-transformer-based-architecture/</guid>
-      <description>Overview Framework Unfamiliar Knowledge Note: May include buzz word and potential literature.
-Resources Paper, Code
-Elementary drafts Note: May contain Chinese. This section will disappear once all drafts are embellished.
-collapsed contentssomething一些草稿</description>
     </item>
     
     <item>
@@ -81,8 +98,8 @@ collapsed contentssomething一些草稿</description>
       <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
       
       <guid>/post/iccv-21-calibrating-concepts-and-operations-towards-symbolic-reasoning-on-real-images/</guid>
-      <description>Overview Figure 1: Statistics and examples from the synthetic CLEVR dataset and the real GQA dataset. Compared to the synthetic dataset, VQA on real data needs to deal with long-tail concept distribution and uneven importance of reasoning steps.
-Figure 2: A failure case that can be corrected by reweighting the operations. The select(bag) operation overrides filter(not black), thus lead to incorrect answer. This can be corrected by scaling up the result of filter operation.</description>
+      <description>Overview &amp;ldquo;Figure 1: Statistics and examples from the synthetic CLEVR dataset and the real GQA dataset. Compared to the synthetic dataset, VQA on real data needs to deal with long-tail concept distribution and uneven importance of reasoning steps.&amp;rdquo;
+Motivation While neural symbolic methods demonstrate impressive performance in visual question answering on synthetic images, their performance suffers on real images. This work identifies that the long-tail distribution of visual concepts and unequal importance of reasoning steps in real data are the two key obstacles that limit the models’ real-world potentials.</description>
     </item>
     
     <item>
@@ -91,10 +108,8 @@ Figure 2: A failure case that can be corrected by reweighting the operations. Th
       <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
       
       <guid>/post/iclr-19-oral-the-neuro-symbolic-concept-learner-interpreting-scenes-words-and-sentences-from-natural-supervision/</guid>
-      <description>Overview Framework Unfamiliar Knowledge Note: May include buzz word and potential literature.
-Resources Paper, Code
-Elementary drafts Note: May contain Chinese. This section will disappear once all drafts are embellished.
-collapsed contents something 一些草稿 </description>
+      <description>Overview &amp;ldquo;Figure 7: An example image-question pair from the VQS dataset and the corresponding execution trace of NS-CL.&amp;rdquo;
+This work proposes the Neuro-Symbolic Concept Learner (NS-CL), a model that learns visual concepts, words, and semantic parsing of sentences without explicit supervision on any of them; instead, the model learns by simply looking at images and reading paired questions and answers. The proposed model builds an object-based scene representation and translates sentences into executable, symbolic programs.</description>
     </item>
     
     <item>
@@ -103,7 +118,7 @@ collapsed contents something 一些草稿 </description>
       <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
       
       <guid>/post/neurips-22-end-to-end-symbolic-regression-with-transformers/</guid>
-      <description>Overview Framework Unfamiliar Knowledge Note: May include buzz word and potential literature.
+      <description>Overview Framework Unfamiliar knowledge Note: May include buzz word and potential literature.
 Resources Paper, Code
 Elementary drafts Note: May contain Chinese. This section will disappear once all drafts are embellished.
 collapsed contentssomething一些草稿</description>

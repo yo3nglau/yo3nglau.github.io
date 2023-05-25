@@ -6,22 +6,31 @@
     <description>Recent content in Tags on yo3nglau academic website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>arXiv</title>
+      <link>/tags/arxiv/</link>
+      <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/arxiv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neural-Symbolic</title>
+      <link>/tags/neural-symbolic/</link>
+      <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/neural-symbolic/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Git Commands</title>
       <link>/tags/git-commands/</link>
       <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
       
       <guid>/tags/git-commands/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>arXiv</title>
-      <link>/tags/arxiv/</link>
-      <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/arxiv/</guid>
       <description></description>
     </item>
     
@@ -40,15 +49,6 @@
       <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
       
       <guid>/tags/iclr/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Neural-Symbolic</title>
-      <link>/tags/neural-symbolic/</link>
-      <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/neural-symbolic/</guid>
       <description></description>
     </item>
     

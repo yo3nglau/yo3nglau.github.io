@@ -45,7 +45,12 @@
 
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#overview">Overview</a></li>
+    <li><a href="#overview">Overview</a>
+      <ul>
+        <li><a href="#motivation">Motivation</a></li>
+        <li><a href="#resolution">Resolution</a></li>
+      </ul>
+    </li>
     <li><a href="#framework">Framework</a></li>
     <li><a href="#unfamiliar-knowledge">Unfamiliar knowledge</a></li>
     <li><a href="#resources">Resources</a></li>
@@ -57,12 +62,16 @@
 <main>
 <h2 id="overview">Overview</h2>
 <p><img src="https://s1.ax1x.com/2023/05/18/p9fBcCR.png" alt=""></p>
-<p>Figure 1: Statistics and examples from the synthetic CLEVR dataset and the real GQA dataset. Compared to the synthetic dataset, VQA on real data needs to deal with long-tail concept distribution and uneven importance of reasoning steps.</p>
+<p>&ldquo;Figure 1: Statistics and examples from the synthetic CLEVR dataset and the real GQA dataset. Compared to the synthetic dataset, VQA on real data needs to deal with long-tail concept distribution and uneven importance of reasoning steps.&rdquo;</p>
+<h3 id="motivation">Motivation</h3>
+<p>While neural symbolic methods demonstrate impressive performance in visual question answering on synthetic images, <em>their performance suffers on real images</em>. This work identifies that the <strong>long-tail distribution of visual concepts</strong> and <strong>unequal importance of reasoning steps</strong> in real data are the two key obstacles that limit the models’ real-world potentials.</p>
+<h3 id="resolution">Resolution</h3>
+<p>The paper proposes a new paradigm named Calibrating Concepts and Operations (<strong>CCO</strong>), which introduces <strong>an executor with learnable concept</strong> embedding magnitudes for handling distribution imbalance, and <strong>an operation calibrator</strong> for highlighting important operations and suppressing redundant ones.</p>
 <img src="https://s1.ax1x.com/2023/05/18/p9fBrE4.png" style="zoom:50%;">
-<p>Figure 2: A failure case that can be corrected by reweighting the operations. The <em>select(bag)</em> operation overrides <em>filter(not black)</em>, thus lead to incorrect answer. This can be corrected by scaling up the result of <em>filter</em> operation.</p>
+<p>&ldquo;Figure 2: A failure case that can be corrected by reweighting the operations. The <em>select(bag)</em> operation overrides <em>filter(not black)</em>, thus lead to incorrect answer. This can be corrected by scaling up the result of <em>filter</em> operation.&rdquo;</p>
 <h2 id="framework">Framework</h2>
 <p><img src="https://s1.ax1x.com/2023/05/18/p9fBy59.png" alt=""></p>
-<p>Figure 3: Overview of our method. We first parse the image into a symbolic scene representation in the form of objects and attributes, then parse the question into a program. In each reasoning step, a reasoning module takes in the scene representation and the instruction from the program, and outputs a distribution over objects. The Operation Weight Predictor predicts a weight for each reasoning module, which will be used to merge module outputs based on the program dependency. The final distribution is fed into the output module to predict answers.</p>
+<p>&ldquo;Figure 3: Overview of our method. We first parse the image into a symbolic scene representation in the form of objects and attributes, then parse the question into a program. In each reasoning step, a reasoning module takes in the scene representation and the instruction from the program, and outputs a distribution over objects. The Operation Weight Predictor predicts a weight for each reasoning module, which will be used to merge module outputs based on the program dependency. The final distribution is fed into the output module to predict answers.&rdquo;</p>
 <h2 id="unfamiliar-knowledge">Unfamiliar knowledge</h2>
 <p><strong>Note: May include buzz word and potential literature.</strong></p>
 <h2 id="resources">Resources</h2>
@@ -71,9 +80,7 @@
 <p><strong>Note: May contain Chinese. This section will disappear once all drafts are embellished.</strong></p>
 <details>
 	<summary>collapsed contents</summary>
-		something
-		<br>
-		一些草稿
+		add more details
 </details>
 <script type="text/javascript" src='/js/pdf-js/build/pdf.js'></script>
 

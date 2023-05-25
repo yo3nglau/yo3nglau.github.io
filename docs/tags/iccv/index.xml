@@ -13,8 +13,8 @@
       <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
       
       <guid>/post/iccv-21-calibrating-concepts-and-operations-towards-symbolic-reasoning-on-real-images/</guid>
-      <description>Overview Figure 1: Statistics and examples from the synthetic CLEVR dataset and the real GQA dataset. Compared to the synthetic dataset, VQA on real data needs to deal with long-tail concept distribution and uneven importance of reasoning steps.
-Figure 2: A failure case that can be corrected by reweighting the operations. The select(bag) operation overrides filter(not black), thus lead to incorrect answer. This can be corrected by scaling up the result of filter operation.</description>
+      <description>Overview &amp;ldquo;Figure 1: Statistics and examples from the synthetic CLEVR dataset and the real GQA dataset. Compared to the synthetic dataset, VQA on real data needs to deal with long-tail concept distribution and uneven importance of reasoning steps.&amp;rdquo;
+Motivation While neural symbolic methods demonstrate impressive performance in visual question answering on synthetic images, their performance suffers on real images. This work identifies that the long-tail distribution of visual concepts and unequal importance of reasoning steps in real data are the two key obstacles that limit the models’ real-world potentials.</description>
     </item>
     
   </channel>

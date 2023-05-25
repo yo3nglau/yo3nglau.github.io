@@ -13,10 +13,8 @@
       <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
       
       <guid>/post/iclr-19-oral-the-neuro-symbolic-concept-learner-interpreting-scenes-words-and-sentences-from-natural-supervision/</guid>
-      <description>Overview Framework Unfamiliar Knowledge Note: May include buzz word and potential literature.
-Resources Paper, Code
-Elementary drafts Note: May contain Chinese. This section will disappear once all drafts are embellished.
-collapsed contents something 一些草稿 </description>
+      <description>Overview &amp;ldquo;Figure 7: An example image-question pair from the VQS dataset and the corresponding execution trace of NS-CL.&amp;rdquo;
+This work proposes the Neuro-Symbolic Concept Learner (NS-CL), a model that learns visual concepts, words, and semantic parsing of sentences without explicit supervision on any of them; instead, the model learns by simply looking at images and reading paired questions and answers. The proposed model builds an object-based scene representation and translates sentences into executable, symbolic programs.</description>
     </item>
     
   </channel>

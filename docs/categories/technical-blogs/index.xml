@@ -6,7 +6,16 @@
     <description>Recent content in Technical Blogs on yo3nglau academic website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="/categories/technical-blogs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="/categories/technical-blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Clear Specific Website Cache in Google Chrome</title>
+      <link>/post/clear-specific-website-cache-in-google-chrome/</link>
+      <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/post/clear-specific-website-cache-in-google-chrome/</guid>
+      <description>Method Press F12 to reach developer toolbox Choose Network Disable cache Press and hold reload button on the left top of Chrome Choose Empty Cache and Hard Reload </description>
+    </item>
+    
     <item>
       <title>git add</title>
       <link>/post/git-add/</link>
@@ -42,11 +51,11 @@ Description Displays paths that have differences between the index file and the 
     </item>
     
     <item>
-      <title>MINC</title>
-      <link>/post/minc/</link>
+      <title>MINC file format</title>
+      <link>/post/minc-file-format/</link>
       <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
       
-      <guid>/post/minc/</guid>
+      <guid>/post/minc-file-format/</guid>
       <description>TLDR The MINC refers to a specific file format and toolbox dealing with multiple file formats from varying scanners and research groups.
 Description The MINC file format and toolbox was originally conceived, written and released by Peter Neelin in 1992 due to the frustrations of dealing with multiple file formats from varying scanners and research groups.
 In the ensuing years many associated tools (image registration, normalization, visualization, etc.) were written and have also been released.</description>

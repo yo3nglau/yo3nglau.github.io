@@ -2,8 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/post/arxiv-22-rgb-no-more-minimally-decoded-jpeg-vision-transformers/</loc>
+    <lastmod>2023-05-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/cvpr-23-symformer-end-to-end-symbolic-regression-using-transformer-based-architecture-copy/</loc>
+    <lastmod>2023-05-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/arxiv/</loc>
+    <lastmod>2023-05-25T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/categories/</loc>
-    <lastmod>2023-05-22T00:00:00+00:00</lastmod>
+    <lastmod>2023-05-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2023-05-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/neural-symbolic/</loc>
+    <lastmod>2023-05-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/</loc>
+    <lastmod>2023-05-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/skimmed-papers/</loc>
+    <lastmod>2023-05-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2023-05-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/clear-specific-website-cache-in-google-chrome/</loc>
+    <lastmod>2023-05-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/technical-blogs/</loc>
+    <lastmod>2023-05-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/post/categories-and-tags-in-blogs/</loc>
     <lastmod>2023-05-22T00:00:00+00:00</lastmod>
@@ -23,23 +53,8 @@
     <loc>/post/git-status/</loc>
     <lastmod>2023-05-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/</loc>
+    <loc>/post/minc-file-format/</loc>
     <lastmod>2023-05-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/post/minc/</loc>
-    <lastmod>2023-05-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/post/</loc>
-    <lastmod>2023-05-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2023-05-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/categories/technical-blogs/</loc>
-    <lastmod>2023-05-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/post/arxiv-22-symformer-end-to-end-symbolic-regression-using-transformer-based-architecture/</loc>
-    <lastmod>2023-05-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/post/iccv-21-calibrating-concepts-and-operations-towards-symbolic-reasoning-on-real-images/</loc>
     <lastmod>2023-05-17T00:00:00+00:00</lastmod>
@@ -50,22 +65,13 @@
     <loc>/post/neurips-22-end-to-end-symbolic-regression-with-transformers/</loc>
     <lastmod>2023-05-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/arxiv/</loc>
-    <lastmod>2023-05-17T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/tags/iccv/</loc>
     <lastmod>2023-05-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/iclr/</loc>
     <lastmod>2023-05-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/neural-symbolic/</loc>
-    <lastmod>2023-05-17T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/tags/neurips/</loc>
-    <lastmod>2023-05-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/categories/skimmed-papers/</loc>
     <lastmod>2023-05-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/transformer/</loc>
