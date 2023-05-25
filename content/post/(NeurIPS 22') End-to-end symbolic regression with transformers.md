@@ -17,7 +17,7 @@ toc: true
 ## Framework
 
 
-## Unfamiliar Knowledge
+## Unfamiliar knowledge
 
 **Note: May include buzz word and potential literature.**
 

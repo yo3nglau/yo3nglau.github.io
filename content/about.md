@@ -9,5 +9,5 @@ I'm interested in deep learning and computer vision.
 
 I know a bit about action segmentation and Transformers.
 
-**Currently**, I want to make progress in the video realm.
+**Currently**, I want to make some progress in the video realm.
 
