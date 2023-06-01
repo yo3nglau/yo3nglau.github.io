@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>General Blogs on yo3nglau academic website</title>
-    <link>/categories/general-blogs/</link>
-    <description>Recent content in General Blogs on yo3nglau academic website</description>
+    <title>中文 on yo3nglau academic website</title>
+    <link>/tags/%E4%B8%AD%E6%96%87/</link>
+    <description>Recent content in 中文 on yo3nglau academic website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="/categories/general-blogs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/%E4%B8%AD%E6%96%87/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>王汎森，如果讓我重做一次研究生</title>
       <link>/post/%E7%8E%8B%E6%B1%8E%E6%A3%AE%E5%A6%82%E6%9E%9C%E8%AE%93%E6%88%91%E9%87%8D%E5%81%9A%E4%B8%80%E6%AC%A1%E7%A0%94%E7%A9%B6%E7%94%9F/</link>
@@ -22,17 +22,6 @@
 Pavarotti
 参考文献 论文
 Previous Next &amp;nbsp; &amp;nbsp; / [pdf] View the PDF file here. </description>
-    </item>
-    
-    <item>
-      <title>Categories and Tags in Blogs</title>
-      <link>/post/categories-and-tags-in-blogs/</link>
-      <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/post/categories-and-tags-in-blogs/</guid>
-      <description>TLDR Categories are broad topics that help you organize your blog posts, and help readers find the information they’re seeking on your site.
-Tags are a simple way to drill down on the topic of any given blog post that’s part of a category.
-Description These two words may be used interchangeably, but they are not the same thing. The difference is simple: A category is a broad topic you cover in your blog.</description>
     </item>
     
   </channel>

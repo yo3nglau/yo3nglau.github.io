@@ -11,7 +11,9 @@ toc: true
 
 ## Name
 
-*git-add - Add file contents to the index*
+```
+git-add - Add file contents to the index
+```
 
 ## Description
 

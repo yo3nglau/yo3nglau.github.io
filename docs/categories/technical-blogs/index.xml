@@ -6,7 +6,16 @@
     <description>Recent content in Technical Blogs on yo3nglau academic website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="/categories/technical-blogs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="/categories/technical-blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>htop Command in Linux</title>
+      <link>/post/htop-command-in-linux/</link>
+      <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/post/htop-command-in-linux/</guid>
+      <description>Name htop - interactive process viewerSyntax htop [-dChustv]Description htop command in Linux system is a command line utility that allows the user to interactively monitor the system’s vital resources or server’s processes in real time. htop is a newer program compared to top command, and it offers many improvements over top command. htop supports mouse operation, uses color in its output and gives visual indications about processor, memory and swap usage.</description>
+    </item>
+    
     <item>
       <title>Clear Specific Website Cache in Google Chrome</title>
       <link>/post/clear-specific-website-cache-in-google-chrome/</link>
@@ -22,8 +31,7 @@
       <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
       
       <guid>/post/git-add/</guid>
-      <description>Name git-add - Add file contents to the index
-Description This command updates the index using the current content found in the working tree, to prepare the content staged for the next commit.
+      <description>Name git-add - Add file contents to the indexDescription This command updates the index using the current content found in the working tree, to prepare the content staged for the next commit.
 The &amp;ldquo;index&amp;rdquo; holds a snapshot of the content of the working tree, and it is this snapshot that is taken as the contents of the next commit.
 Thus after making any changes to the working tree, and before running the commit command, you must use the add command to add any new or modified files to the index.</description>
     </item>
@@ -34,8 +42,7 @@ Thus after making any changes to the working tree, and before running the commit
       <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
       
       <guid>/post/git-commit/</guid>
-      <description>Name git-commit - Record changes to the repository
-Description Create a new commit containing the current contents of the index and the given log message describing the changes. The new commit is a direct child of HEAD, usually the tip of the current branch, and the branch is updated to point to it.
+      <description>Name git-commit - Record changes to the repositoryDescription Create a new commit containing the current contents of the index and the given log message describing the changes. The new commit is a direct child of HEAD, usually the tip of the current branch, and the branch is updated to point to it.
 The content to be committed can be specified in several ways:
 by using git-add to incrementally &amp;ldquo;add&amp;rdquo; changes to the index before using the commit command (Note: even modified files must be &amp;ldquo;added&amp;rdquo;); &amp;hellip; Options -a, --all</description>
     </item>
@@ -46,8 +53,7 @@ by using git-add to incrementally &amp;ldquo;add&amp;rdquo; changes to the index
       <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
       
       <guid>/post/git-status/</guid>
-      <description>Name git-status - Show the working tree status
-Description Displays paths that have differences between the index file and the current HEAD commit, paths that have differences between the working tree and the index file, and paths in the working tree that are not tracked by Git. The first are what you would commit by running git commit; the second and third are what you could commit by running git add before running git commit.</description>
+      <description>Name git-status - Show the working tree statusDescription Displays paths that have differences between the index file and the current HEAD commit, paths that have differences between the working tree and the index file, and paths in the working tree that are not tracked by Git. The first are what you would commit by running git commit; the second and third are what you could commit by running git add before running git commit.</description>
     </item>
     
     <item>

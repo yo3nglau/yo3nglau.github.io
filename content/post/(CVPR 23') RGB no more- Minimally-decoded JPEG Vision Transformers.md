@@ -74,7 +74,7 @@ Run-length encoding(RLE)
 
 ## Resources
 
-[Paper](https://arxiv.org/abs/2211.16421), [Code]()
+[Paper](https://arxiv.org/abs/2211.16421)
 
 ## Elementary drafts
 

@@ -11,7 +11,9 @@ toc: true
 
 ## Name
 
-*git-status - Show the working tree status*
+```
+git-status - Show the working tree status
+```
 
 ## Description
 

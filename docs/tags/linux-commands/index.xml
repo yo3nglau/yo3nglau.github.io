@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux Commands on yo3nglau academic website</title>
+    <link>/tags/linux-commands/</link>
+    <description>Recent content in Linux Commands on yo3nglau academic website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/linux-commands/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>htop Command in Linux</title>
+      <link>/post/htop-command-in-linux/</link>
+      <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/post/htop-command-in-linux/</guid>
+      <description>Name htop - interactive process viewerSyntax htop [-dChustv]Description htop command in Linux system is a command line utility that allows the user to interactively monitor the system’s vital resources or server’s processes in real time. htop is a newer program compared to top command, and it offers many improvements over top command. htop supports mouse operation, uses color in its output and gives visual indications about processor, memory and swap usage.</description>
+    </item>
+    
+  </channel>
+</rss>

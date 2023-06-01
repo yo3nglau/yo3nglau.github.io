@@ -11,7 +11,9 @@ toc: true
 
 ## Name
 
-*git-commit - Record changes to the repository*
+```
+git-commit - Record changes to the repository
+```
 
 ## Description
 
