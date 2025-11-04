@@ -3,7 +3,7 @@ title: Categories and Tags in Blogs
 author: yo3nglau
 date: '2023-05-22'
 categories:
-  - Writing
+  - Daily Writing
 tags:
   - blog
 toc: true
