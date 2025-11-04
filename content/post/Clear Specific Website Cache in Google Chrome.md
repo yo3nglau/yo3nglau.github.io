@@ -3,9 +3,9 @@ title: Clear Specific Website Cache in Google Chrome
 author: yo3nglau
 date: '2023-05-23'
 categories:
-  - Technical Blogs
-Tags:
-  - Google Chrome
+  - Computer Technology
+tags:
+  - google chrome
 ---
 
 **Updated: 2025-11-04**

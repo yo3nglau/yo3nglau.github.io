@@ -3,7 +3,9 @@ title: Categories and Tags in Blogs
 author: yo3nglau
 date: '2023-05-22'
 categories:
-  - General Blogs
+  - Writing
+tags:
+  - blog
 toc: true
 ---
 

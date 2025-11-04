@@ -16,10 +16,17 @@
       <description></description>
     </item>
     <item>
-      <title>Technical Blogs</title>
-      <link>/categories/technical-blogs/</link>
+      <title>Computer Technology</title>
+      <link>/categories/computer-technology/</link>
       <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
-      <guid>/categories/technical-blogs/</guid>
+      <guid>/categories/computer-technology/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Writing</title>
+      <link>/categories/writing/</link>
+      <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
+      <guid>/categories/writing/</guid>
       <description></description>
     </item>
   </channel>
