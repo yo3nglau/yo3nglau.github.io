@@ -16,7 +16,7 @@ In this academic website, you will:
 
 ## What's New
 
-[2023/05/21] [Embed](https://github.com/anvithks/hugo-embed-pdf-shortcode) PDF files in post pages (for skimmed papers) with [PDF.js](https://mozilla.github.io/pdf.js/).
+[2023/05/21] [Embed](https://github.com/anvithks/hugo-embed-pdf-shortcode) PDF files in post pages with [PDF.js](https://mozilla.github.io/pdf.js/).
 
 [2023/05/21] [Syntax highlighting](https://github.com/yihui/hugo-xmin/pull/5) of code blocks.
 
