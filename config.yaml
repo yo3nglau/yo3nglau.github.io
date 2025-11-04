@@ -5,6 +5,7 @@ googleAnalytics: ""
 disqusShortname: ""
 footnotereturnlinkcontents: "↩"
 publishDir: "docs"
+enableEmoji: true
 
 permalinks:
   # post: "/post/:year/:month/:day/:slug/"
