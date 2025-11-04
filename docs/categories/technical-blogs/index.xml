@@ -6,49 +6,14 @@
     <description>Recent content in Technical Blogs on yo3nglau academic website</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 May 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 May 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/technical-blogs/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>htop Command in Linux</title>
-      <link>/post/htop-command-in-linux/</link>
-      <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
-      <guid>/post/htop-command-in-linux/</guid>
-      <description>&lt;h2 id=&#34;name&#34;&gt;Name&lt;/h2&gt;&#xA;&lt;pre&gt;&lt;code&gt;htop - interactive process viewer&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;syntax&#34;&gt;Syntax&lt;/h2&gt;&#xA;&lt;pre&gt;&lt;code&gt;htop [-dChustv]&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;&#xA;&lt;p&gt;htop command in Linux system is a command line utility that allows the user to interactively monitor the system’s vital resources or server’s processes in real time. htop is a newer program compared to top command, and it offers many improvements over top command. htop supports mouse operation, uses color in its output and gives visual indications about processor, memory and swap usage. htop also prints full command lines for processes and allows one to scroll both vertically and horizontally for processes and command lines respectively.&lt;/p&gt;</description>
-    </item>
     <item>
       <title>Clear Specific Website Cache in Google Chrome</title>
       <link>/post/clear-specific-website-cache-in-google-chrome/</link>
       <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
       <guid>/post/clear-specific-website-cache-in-google-chrome/</guid>
       <description>&lt;h2 id=&#34;method&#34;&gt;Method&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Press &lt;kbd&gt;F12&lt;/kbd&gt; to reach &lt;em&gt;developer toolbox&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;Choose &lt;em&gt;Network&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Disable cache&lt;/li&gt;&#xA;&lt;li&gt;Press and hold &lt;em&gt;reload button&lt;/em&gt; on the left top of Chrome&lt;/li&gt;&#xA;&lt;li&gt;Choose &lt;em&gt;Empty Cache and Hard Reload&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
-    </item>
-    <item>
-      <title>git add</title>
-      <link>/post/git-add/</link>
-      <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
-      <guid>/post/git-add/</guid>
-      <description>&lt;h2 id=&#34;name&#34;&gt;Name&lt;/h2&gt;&#xA;&lt;pre&gt;&lt;code&gt;git-add - Add file contents to the index&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;&#xA;&lt;p&gt;This command updates the index using the current content found in the working tree, to prepare the content staged for the next commit.&lt;/p&gt;&#xA;&lt;p&gt;The &amp;ldquo;index&amp;rdquo;  holds a snapshot of the content of the working tree, and it is this snapshot that is taken as the contents of the next commit.&lt;/p&gt;&#xA;&lt;p&gt;Thus after making any changes to the working tree, and before running the commit command, you must use the &lt;code&gt;add&lt;/code&gt; command to add any new or modified files to the index.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>git commit</title>
-      <link>/post/git-commit/</link>
-      <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
-      <guid>/post/git-commit/</guid>
-      <description>&lt;h2 id=&#34;name&#34;&gt;Name&lt;/h2&gt;&#xA;&lt;pre&gt;&lt;code&gt;git-commit - Record changes to the repository&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;&#xA;&lt;p&gt;Create a new commit containing the current contents of the index and the given log message describing the changes. The new commit is a direct child of HEAD, usually the tip of the current branch, and the branch is updated to point to it.&lt;/p&gt;&#xA;&lt;p&gt;The content to be committed can be specified in several ways:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;by using &lt;a href=&#34;https://git-scm.com/docs/git-add&#34;&gt;git-add&lt;/a&gt; to incrementally &amp;ldquo;add&amp;rdquo; changes to the index before using the &lt;em&gt;commit&lt;/em&gt; command (Note: even modified files must be &amp;ldquo;added&amp;rdquo;);&lt;/li&gt;&#xA;&lt;li&gt;&amp;hellip;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;options&#34;&gt;Options&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;code&gt;-a, --all&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>git status</title>
-      <link>/post/git-status/</link>
-      <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
-      <guid>/post/git-status/</guid>
-      <description>&lt;h2 id=&#34;name&#34;&gt;Name&lt;/h2&gt;&#xA;&lt;pre&gt;&lt;code&gt;git-status - Show the working tree status&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;&#xA;&lt;p&gt;Displays paths that have differences between the &lt;strong&gt;index file&lt;/strong&gt; and the &lt;strong&gt;current HEAD commit&lt;/strong&gt;, paths that have differences between the &lt;strong&gt;working tree&lt;/strong&gt; and the &lt;strong&gt;index file&lt;/strong&gt;, and paths in the working tree that are not tracked by Git. The first are what you &lt;em&gt;would&lt;/em&gt; commit by running &lt;code&gt;git commit&lt;/code&gt;; the second and third are what you &lt;em&gt;could&lt;/em&gt; commit by running &lt;code&gt;git add&lt;/code&gt; before running &lt;code&gt;git commit&lt;/code&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>MINC file format</title>
-      <link>/post/minc-file-format/</link>
-      <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
-      <guid>/post/minc-file-format/</guid>
-      <description>&lt;h2 id=&#34;tldr&#34;&gt;TLDR&lt;/h2&gt;&#xA;&lt;p&gt;The MINC refers to a specific &lt;strong&gt;file format&lt;/strong&gt; and &lt;strong&gt;toolbox&lt;/strong&gt; dealing with multiple file formats from varying scanners and research groups.&lt;/p&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;&#xA;&lt;p&gt;The MINC file format and toolbox was originally conceived, written and released by Peter Neelin in 1992 due to the frustrations of dealing with multiple file formats from varying scanners and research groups.&lt;/p&gt;&#xA;&lt;p&gt;In the ensuing years many associated tools (image registration, normalization, visualization, etc.) were written and have also been released. The original MINC file format and tools were based upon the NetCDF data format but problems were being encountered with multi-gigabyte datasets, as such a large rewrite of the library was undertaken in 2003 in which the data format was changed to HDF in order to support large files and other new features, resulting in MINC2. Development work on MINC1 was halted at version 1.5.1 in 2006. The current MINC2 library and tools are maintained by a group of developers in various image research labs around the world.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

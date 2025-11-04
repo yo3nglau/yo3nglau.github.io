@@ -2,12 +2,13 @@
 title: Categories and Tags in Blogs
 author: yo3nglau
 date: '2023-05-22'
+refinement date: '2025-11-04'
 categories:
   - General Blogs
 toc: true
 ---
 
-## TLDR
+## TL;DR
 
 **Categories** are broad topics that help you organize your blog posts, and help readers find the information they’re seeking on your site.
 
@@ -19,7 +20,7 @@ These two words may be used interchangeably, but they are not the same thing. Th
 
 ## Pro Tips
 
-- Don’t go overboard with tags. Have tags about 5 to 10 maximum per category. Don’t need to add more than three to four per blog post.
+- Don’t go overboard with tags. Have tags about 5 to 10 maximum per category. Don’t need to add more than 3 to 4 per blog post.
 - Keep them short — between 1 and 3 words.
 - Don’t use different variations of the same word.
 - Constantly adding content with created tags. Consistency is key. 
@@ -27,7 +28,4 @@ These two words may be used interchangeably, but they are not the same thing. Th
 
 ## Resources
 
-https://margaretbourne.com/what-are-blog-categories-and-tags/
-
-https://www.lyntonweb.com/inbound-marketing-blog/what-are-blog-tags-and-why-do-you-need-them
-
+[What Are Blog Categories And Tags](https://margaretbourne.com/what-are-blog-categories-and-tags/)
