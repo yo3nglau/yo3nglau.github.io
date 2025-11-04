@@ -2,11 +2,12 @@
 title: Categories and Tags in Blogs
 author: yo3nglau
 date: '2023-05-22'
-refinement date: '2025-11-04'
 categories:
   - General Blogs
 toc: true
 ---
+
+**Updated: 2025-11-04**
 
 ## TL;DR
 
