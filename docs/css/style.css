@@ -78,8 +78,8 @@ video {
   max-width: 100%;
 }
 img {
-  display: block;
   height: auto;
+  display: block;
   margin: auto;
 }
 main {
