@@ -4,35 +4,30 @@
     <title>Categories on yo3nglau academic website</title>
     <link>/categories/</link>
     <description>Recent content in Categories on yo3nglau academic website</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>General Blogs</title>
       <link>/categories/general-blogs/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
-      
       <guid>/categories/general-blogs/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Technical Blogs</title>
       <link>/categories/technical-blogs/</link>
       <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>/categories/technical-blogs/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Skimmed Papers</title>
       <link>/categories/skimmed-papers/</link>
       <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>/categories/skimmed-papers/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

@@ -4,20 +4,16 @@
     <title>NeurIPS on yo3nglau academic website</title>
     <link>/tags/neurips/</link>
     <description>Recent content in NeurIPS on yo3nglau academic website</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/neurips/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 May 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/neurips/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>(NeurIPS 22&#39;) End-to-end symbolic regression with transformers</title>
       <link>/post/neurips-22-end-to-end-symbolic-regression-with-transformers/</link>
       <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>/post/neurips-22-end-to-end-symbolic-regression-with-transformers/</guid>
-      <description>Overview Framework Unfamiliar knowledge Note: May include buzz word and potential literature.
-Resources Paper, Code
-Elementary drafts Note: May contain Chinese. This section will disappear once all drafts are embellished.
-collapsed contentssomething一些草稿</description>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;h2 id=&#34;framework&#34;&gt;Framework&lt;/h2&gt;&#xA;&lt;h2 id=&#34;unfamiliar-knowledge&#34;&gt;Unfamiliar knowledge&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Note: May include buzz word and potential literature.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;&#34;&gt;Paper&lt;/a&gt;, &lt;a href=&#34;&#34;&gt;Code&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;elementary-drafts&#34;&gt;Elementary drafts&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Note: May contain Chinese. This section will disappear once all drafts are embellished.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;details&gt;&#xD;&#xA;&#x9;&lt;summary&gt;collapsed contents&lt;/summary&gt;&#xD;&#xA;&#x9;&#x9;something&#xD;&#xA;&#x9;&#x9;&lt;br&gt;&#xD;&#xA;&#x9;&#x9;一些草稿&#xD;&#xA;&lt;/details&gt;</description>
     </item>
-    
   </channel>
 </rss>

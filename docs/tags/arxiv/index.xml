@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>arXiv on yo3nglau academic website</title>
+    <title>ArXiv on yo3nglau academic website</title>
     <link>/tags/arxiv/</link>
-    <description>Recent content in arXiv on yo3nglau academic website</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in ArXiv on yo3nglau academic website</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/arxiv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 May 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/arxiv/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>(arXiv 22&#39;) SymFormer- End-to-end symbolic regression using transformer-based architecture</title>
-      <link>/post/arxiv-22-symformer-end-to-end-symbolic-regression-using-transformer-based-architecture/</link>
+      <link>/post/arxiv-22-symformer--end-to-end-symbolic-regression-using-transformer-based-architecture/</link>
       <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/post/arxiv-22-symformer-end-to-end-symbolic-regression-using-transformer-based-architecture/</guid>
-      <description>Overview Motivation Many real-world problems can be naturally described by mathematical formulas. The task of finding formulas from a set of observed inputs and outputs is called symbolic regression.
-Neural networks have been applied to symbolic regression, among which the transformer-based ones seem to be the most promising. However, the main drawback of transformers is that they generate formulas without numerical constants, which have to be optimized separately, so yielding suboptimal results.</description>
+      <guid>/post/arxiv-22-symformer--end-to-end-symbolic-regression-using-transformer-based-architecture/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;h3 id=&#34;motivation&#34;&gt;Motivation&lt;/h3&gt;&#xA;&lt;img src=&#34;https://s1.ax1x.com/2023/05/24/p97B3pF.png&#34; style=&#34;zoom:90%;&#34; /&gt;&#xD;&#xA;&lt;p&gt;Many real-world problems can be naturally described by mathematical formulas. The task of finding formulas from a set of observed inputs and outputs is called &lt;em&gt;symbolic regression&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Neural networks have been applied to symbolic regression, among which the transformer-based ones seem to be the most promising. However, the main drawback of transformers is that they generate formulas without numerical constants, which have to be optimized separately, so yielding suboptimal results.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -4,60 +4,44 @@
     <title>Skimmed Papers on yo3nglau academic website</title>
     <link>/categories/skimmed-papers/</link>
     <description>Recent content in Skimmed Papers on yo3nglau academic website</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="/categories/skimmed-papers/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 May 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/categories/skimmed-papers/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>(arXiv 22&#39;) SymFormer- End-to-end symbolic regression using transformer-based architecture</title>
-      <link>/post/arxiv-22-symformer-end-to-end-symbolic-regression-using-transformer-based-architecture/</link>
+      <link>/post/arxiv-22-symformer--end-to-end-symbolic-regression-using-transformer-based-architecture/</link>
       <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/post/arxiv-22-symformer-end-to-end-symbolic-regression-using-transformer-based-architecture/</guid>
-      <description>Overview Motivation Many real-world problems can be naturally described by mathematical formulas. The task of finding formulas from a set of observed inputs and outputs is called symbolic regression.
-Neural networks have been applied to symbolic regression, among which the transformer-based ones seem to be the most promising. However, the main drawback of transformers is that they generate formulas without numerical constants, which have to be optimized separately, so yielding suboptimal results.</description>
+      <guid>/post/arxiv-22-symformer--end-to-end-symbolic-regression-using-transformer-based-architecture/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;h3 id=&#34;motivation&#34;&gt;Motivation&lt;/h3&gt;&#xA;&lt;img src=&#34;https://s1.ax1x.com/2023/05/24/p97B3pF.png&#34; style=&#34;zoom:90%;&#34; /&gt;&#xD;&#xA;&lt;p&gt;Many real-world problems can be naturally described by mathematical formulas. The task of finding formulas from a set of observed inputs and outputs is called &lt;em&gt;symbolic regression&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Neural networks have been applied to symbolic regression, among which the transformer-based ones seem to be the most promising. However, the main drawback of transformers is that they generate formulas without numerical constants, which have to be optimized separately, so yielding suboptimal results.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>(CVPR 23&#39;) RGB no more- Minimally-decoded JPEG Vision Transformers</title>
-      <link>/post/cvpr-23-rgb-no-more-minimally-decoded-jpeg-vision-transformers/</link>
+      <link>/post/cvpr-23-rgb-no-more--minimally-decoded-jpeg-vision-transformers/</link>
       <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/post/cvpr-23-rgb-no-more-minimally-decoded-jpeg-vision-transformers/</guid>
-      <description>Overview Motivation Most neural networks for computer vision are designed to infer using RGB images. However, these RGB images are commonly encoded in JPEG before saving to disk; decoding them imposes an unavoidable overhead for RGB networks.
-&amp;ldquo;Figure 2. Process of applying 8 × 8 DCT to the input image. The input image is sliced into 8 × 8 patches and the DCT is applied to each patch. The DCT bases are shown on the right.</description>
+      <guid>/post/cvpr-23-rgb-no-more--minimally-decoded-jpeg-vision-transformers/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;h3 id=&#34;motivation&#34;&gt;Motivation&lt;/h3&gt;&#xA;&lt;p&gt;Most neural networks for computer vision are designed to infer using RGB images. However, these RGB images are commonly encoded in JPEG before saving to disk; &lt;em&gt;decoding them imposes an unavoidable overhead for RGB networks&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://s1.ax1x.com/2023/05/25/p9beui6.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;Figure 2. Process of applying 8 × 8 DCT to the input image. The input image is sliced into 8 × 8 patches and the DCT is applied to each patch. The DCT bases are shown on the right.&amp;rdquo;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>(ICCV 21&#39;) Calibrating Concepts and Operations- Towards Symbolic Reasoning on Real Images</title>
-      <link>/post/iccv-21-calibrating-concepts-and-operations-towards-symbolic-reasoning-on-real-images/</link>
+      <link>/post/iccv-21-calibrating-concepts-and-operations--towards-symbolic-reasoning-on-real-images/</link>
       <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/post/iccv-21-calibrating-concepts-and-operations-towards-symbolic-reasoning-on-real-images/</guid>
-      <description>Overview &amp;ldquo;Figure 1: Statistics and examples from the synthetic CLEVR dataset and the real GQA dataset. Compared to the synthetic dataset, VQA on real data needs to deal with long-tail concept distribution and uneven importance of reasoning steps.&amp;rdquo;
-Motivation While neural symbolic methods demonstrate impressive performance in visual question answering on synthetic images, their performance suffers on real images. This work identifies that the long-tail distribution of visual concepts and unequal importance of reasoning steps in real data are the two key obstacles that limit the models’ real-world potentials.</description>
+      <guid>/post/iccv-21-calibrating-concepts-and-operations--towards-symbolic-reasoning-on-real-images/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://s1.ax1x.com/2023/05/18/p9fBcCR.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;Figure 1: Statistics and examples from the synthetic CLEVR dataset and the real GQA dataset. Compared to the synthetic dataset, VQA on real data needs to deal with long-tail concept distribution and uneven importance of reasoning steps.&amp;rdquo;&lt;/p&gt;&#xA;&lt;h3 id=&#34;motivation&#34;&gt;Motivation&lt;/h3&gt;&#xA;&lt;p&gt;While neural symbolic methods demonstrate impressive performance in visual question answering on synthetic images, &lt;em&gt;their performance suffers on real images&lt;/em&gt;. This work identifies that the &lt;strong&gt;long-tail distribution of visual concepts&lt;/strong&gt; and &lt;strong&gt;unequal importance of reasoning steps&lt;/strong&gt; in real data are the two key obstacles that limit the models’ real-world potentials.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>(ICLR 19&#39; oral) THE NEURO-SYMBOLIC CONCEPT LEARNER- INTERPRETING SCENES, WORDS, AND SENTENCES FROM NATURAL SUPERVISION</title>
-      <link>/post/iclr-19-oral-the-neuro-symbolic-concept-learner-interpreting-scenes-words-and-sentences-from-natural-supervision/</link>
+      <link>/post/iclr-19-oral-the-neuro-symbolic-concept-learner--interpreting-scenes-words-and-sentences-from-natural-supervision/</link>
       <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/post/iclr-19-oral-the-neuro-symbolic-concept-learner-interpreting-scenes-words-and-sentences-from-natural-supervision/</guid>
-      <description>Overview &amp;ldquo;Figure 7: An example image-question pair from the VQS dataset and the corresponding execution trace of NS-CL.&amp;rdquo;
-This work proposes the Neuro-Symbolic Concept Learner (NS-CL), a model that learns visual concepts, words, and semantic parsing of sentences without explicit supervision on any of them; instead, the model learns by simply looking at images and reading paired questions and answers. The proposed model builds an object-based scene representation and translates sentences into executable, symbolic programs.</description>
+      <guid>/post/iclr-19-oral-the-neuro-symbolic-concept-learner--interpreting-scenes-words-and-sentences-from-natural-supervision/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;img src=&#34;https://s1.ax1x.com/2023/05/24/p97R59I.png&#34; style=&#34;zoom:60%;&#34; /&gt;&#xD;&#xA;&lt;p&gt;&amp;ldquo;Figure 7: An example image-question pair from the VQS dataset and the corresponding execution trace of NS-CL.&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;This work proposes the Neuro-Symbolic Concept Learner (&lt;strong&gt;NS-CL&lt;/strong&gt;), a model that learns visual concepts, words, and semantic parsing of sentences &lt;em&gt;without explicit supervision&lt;/em&gt; on any of them; instead, the model &lt;em&gt;learns by simply looking at images and reading paired questions and answers&lt;/em&gt;. The proposed model builds an &lt;strong&gt;object-based scene representation&lt;/strong&gt; and &lt;strong&gt;translates sentences into executable, symbolic programs&lt;/strong&gt;. To bridge the learning of two modules, it uses a neuro-symbolic reasoning module that executes these programs on the latent scene representation.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>(NeurIPS 22&#39;) End-to-end symbolic regression with transformers</title>
       <link>/post/neurips-22-end-to-end-symbolic-regression-with-transformers/</link>
       <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>/post/neurips-22-end-to-end-symbolic-regression-with-transformers/</guid>
-      <description>Overview Framework Unfamiliar knowledge Note: May include buzz word and potential literature.
-Resources Paper, Code
-Elementary drafts Note: May contain Chinese. This section will disappear once all drafts are embellished.
-collapsed contentssomething一些草稿</description>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;h2 id=&#34;framework&#34;&gt;Framework&lt;/h2&gt;&#xA;&lt;h2 id=&#34;unfamiliar-knowledge&#34;&gt;Unfamiliar knowledge&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Note: May include buzz word and potential literature.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;&#34;&gt;Paper&lt;/a&gt;, &lt;a href=&#34;&#34;&gt;Code&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;elementary-drafts&#34;&gt;Elementary drafts&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Note: May contain Chinese. This section will disappear once all drafts are embellished.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;details&gt;&#xD;&#xA;&#x9;&lt;summary&gt;collapsed contents&lt;/summary&gt;&#xD;&#xA;&#x9;&#x9;something&#xD;&#xA;&#x9;&#x9;&lt;br&gt;&#xD;&#xA;&#x9;&#x9;一些草稿&#xD;&#xA;&lt;/details&gt;</description>
     </item>
-    
   </channel>
 </rss>

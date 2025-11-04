@@ -4,30 +4,23 @@
     <title>Transformer on yo3nglau academic website</title>
     <link>/tags/transformer/</link>
     <description>Recent content in Transformer on yo3nglau academic website</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/transformer/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 May 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/transformer/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>(CVPR 23&#39;) RGB no more- Minimally-decoded JPEG Vision Transformers</title>
-      <link>/post/cvpr-23-rgb-no-more-minimally-decoded-jpeg-vision-transformers/</link>
+      <link>/post/cvpr-23-rgb-no-more--minimally-decoded-jpeg-vision-transformers/</link>
       <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/post/cvpr-23-rgb-no-more-minimally-decoded-jpeg-vision-transformers/</guid>
-      <description>Overview Motivation Most neural networks for computer vision are designed to infer using RGB images. However, these RGB images are commonly encoded in JPEG before saving to disk; decoding them imposes an unavoidable overhead for RGB networks.
-&amp;ldquo;Figure 2. Process of applying 8 × 8 DCT to the input image. The input image is sliced into 8 × 8 patches and the DCT is applied to each patch. The DCT bases are shown on the right.</description>
+      <guid>/post/cvpr-23-rgb-no-more--minimally-decoded-jpeg-vision-transformers/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;h3 id=&#34;motivation&#34;&gt;Motivation&lt;/h3&gt;&#xA;&lt;p&gt;Most neural networks for computer vision are designed to infer using RGB images. However, these RGB images are commonly encoded in JPEG before saving to disk; &lt;em&gt;decoding them imposes an unavoidable overhead for RGB networks&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://s1.ax1x.com/2023/05/25/p9beui6.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;Figure 2. Process of applying 8 × 8 DCT to the input image. The input image is sliced into 8 × 8 patches and the DCT is applied to each patch. The DCT bases are shown on the right.&amp;rdquo;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>(NeurIPS 22&#39;) End-to-end symbolic regression with transformers</title>
       <link>/post/neurips-22-end-to-end-symbolic-regression-with-transformers/</link>
       <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>/post/neurips-22-end-to-end-symbolic-regression-with-transformers/</guid>
-      <description>Overview Framework Unfamiliar knowledge Note: May include buzz word and potential literature.
-Resources Paper, Code
-Elementary drafts Note: May contain Chinese. This section will disappear once all drafts are embellished.
-collapsed contentssomething一些草稿</description>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;h2 id=&#34;framework&#34;&gt;Framework&lt;/h2&gt;&#xA;&lt;h2 id=&#34;unfamiliar-knowledge&#34;&gt;Unfamiliar knowledge&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Note: May include buzz word and potential literature.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;&#34;&gt;Paper&lt;/a&gt;, &lt;a href=&#34;&#34;&gt;Code&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;elementary-drafts&#34;&gt;Elementary drafts&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Note: May contain Chinese. This section will disappear once all drafts are embellished.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;details&gt;&#xD;&#xA;&#x9;&lt;summary&gt;collapsed contents&lt;/summary&gt;&#xD;&#xA;&#x9;&#x9;something&#xD;&#xA;&#x9;&#x9;&lt;br&gt;&#xD;&#xA;&#x9;&#x9;一些草稿&#xD;&#xA;&lt;/details&gt;</description>
     </item>
-    
   </channel>
 </rss>

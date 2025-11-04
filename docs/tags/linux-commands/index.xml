@@ -4,17 +4,16 @@
     <title>Linux Commands on yo3nglau academic website</title>
     <link>/tags/linux-commands/</link>
     <description>Recent content in Linux Commands on yo3nglau academic website</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/linux-commands/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 May 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/linux-commands/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>htop Command in Linux</title>
       <link>/post/htop-command-in-linux/</link>
       <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>/post/htop-command-in-linux/</guid>
-      <description>Name htop - interactive process viewerSyntax htop [-dChustv]Description htop command in Linux system is a command line utility that allows the user to interactively monitor the system’s vital resources or server’s processes in real time. htop is a newer program compared to top command, and it offers many improvements over top command. htop supports mouse operation, uses color in its output and gives visual indications about processor, memory and swap usage.</description>
+      <description>&lt;h2 id=&#34;name&#34;&gt;Name&lt;/h2&gt;&#xA;&lt;pre&gt;&lt;code&gt;htop - interactive process viewer&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;syntax&#34;&gt;Syntax&lt;/h2&gt;&#xA;&lt;pre&gt;&lt;code&gt;htop [-dChustv]&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;&#xA;&lt;p&gt;htop command in Linux system is a command line utility that allows the user to interactively monitor the system’s vital resources or server’s processes in real time. htop is a newer program compared to top command, and it offers many improvements over top command. htop supports mouse operation, uses color in its output and gives visual indications about processor, memory and swap usage. htop also prints full command lines for processes and allows one to scroll both vertically and horizontally for processes and command lines respectively.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

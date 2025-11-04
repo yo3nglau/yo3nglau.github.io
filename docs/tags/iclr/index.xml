@@ -4,18 +4,16 @@
     <title>ICLR on yo3nglau academic website</title>
     <link>/tags/iclr/</link>
     <description>Recent content in ICLR on yo3nglau academic website</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/iclr/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 May 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/iclr/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>(ICLR 19&#39; oral) THE NEURO-SYMBOLIC CONCEPT LEARNER- INTERPRETING SCENES, WORDS, AND SENTENCES FROM NATURAL SUPERVISION</title>
-      <link>/post/iclr-19-oral-the-neuro-symbolic-concept-learner-interpreting-scenes-words-and-sentences-from-natural-supervision/</link>
+      <link>/post/iclr-19-oral-the-neuro-symbolic-concept-learner--interpreting-scenes-words-and-sentences-from-natural-supervision/</link>
       <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/post/iclr-19-oral-the-neuro-symbolic-concept-learner-interpreting-scenes-words-and-sentences-from-natural-supervision/</guid>
-      <description>Overview &amp;ldquo;Figure 7: An example image-question pair from the VQS dataset and the corresponding execution trace of NS-CL.&amp;rdquo;
-This work proposes the Neuro-Symbolic Concept Learner (NS-CL), a model that learns visual concepts, words, and semantic parsing of sentences without explicit supervision on any of them; instead, the model learns by simply looking at images and reading paired questions and answers. The proposed model builds an object-based scene representation and translates sentences into executable, symbolic programs.</description>
+      <guid>/post/iclr-19-oral-the-neuro-symbolic-concept-learner--interpreting-scenes-words-and-sentences-from-natural-supervision/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;img src=&#34;https://s1.ax1x.com/2023/05/24/p97R59I.png&#34; style=&#34;zoom:60%;&#34; /&gt;&#xD;&#xA;&lt;p&gt;&amp;ldquo;Figure 7: An example image-question pair from the VQS dataset and the corresponding execution trace of NS-CL.&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;This work proposes the Neuro-Symbolic Concept Learner (&lt;strong&gt;NS-CL&lt;/strong&gt;), a model that learns visual concepts, words, and semantic parsing of sentences &lt;em&gt;without explicit supervision&lt;/em&gt; on any of them; instead, the model &lt;em&gt;learns by simply looking at images and reading paired questions and answers&lt;/em&gt;. The proposed model builds an &lt;strong&gt;object-based scene representation&lt;/strong&gt; and &lt;strong&gt;translates sentences into executable, symbolic programs&lt;/strong&gt;. To bridge the learning of two modules, it uses a neuro-symbolic reasoning module that executes these programs on the latent scene representation.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -4,107 +4,86 @@
     <title>Tags on yo3nglau academic website</title>
     <link>/tags/</link>
     <description>Recent content in Tags on yo3nglau academic website</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Guides</title>
       <link>/tags/guides/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
-      
       <guid>/tags/guides/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>中文</title>
       <link>/tags/%E4%B8%AD%E6%96%87/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
-      
       <guid>/tags/%E4%B8%AD%E6%96%87/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Linux Commands</title>
       <link>/tags/linux-commands/</link>
       <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>/tags/linux-commands/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>arXiv</title>
+      <title>ArXiv</title>
       <link>/tags/arxiv/</link>
       <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>/tags/arxiv/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>CVPR</title>
       <link>/tags/cvpr/</link>
       <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>/tags/cvpr/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Neural-Symbolic</title>
       <link>/tags/neural-symbolic/</link>
       <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>/tags/neural-symbolic/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Transformer</title>
       <link>/tags/transformer/</link>
       <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>/tags/transformer/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Git Commands</title>
       <link>/tags/git-commands/</link>
       <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>/tags/git-commands/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>ICCV</title>
       <link>/tags/iccv/</link>
       <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>/tags/iccv/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>ICLR</title>
       <link>/tags/iclr/</link>
       <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>/tags/iclr/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>NeurIPS</title>
       <link>/tags/neurips/</link>
       <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>/tags/neurips/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

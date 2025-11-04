@@ -4,18 +4,16 @@
     <title>ICCV on yo3nglau academic website</title>
     <link>/tags/iccv/</link>
     <description>Recent content in ICCV on yo3nglau academic website</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/iccv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 May 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/iccv/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>(ICCV 21&#39;) Calibrating Concepts and Operations- Towards Symbolic Reasoning on Real Images</title>
-      <link>/post/iccv-21-calibrating-concepts-and-operations-towards-symbolic-reasoning-on-real-images/</link>
+      <link>/post/iccv-21-calibrating-concepts-and-operations--towards-symbolic-reasoning-on-real-images/</link>
       <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/post/iccv-21-calibrating-concepts-and-operations-towards-symbolic-reasoning-on-real-images/</guid>
-      <description>Overview &amp;ldquo;Figure 1: Statistics and examples from the synthetic CLEVR dataset and the real GQA dataset. Compared to the synthetic dataset, VQA on real data needs to deal with long-tail concept distribution and uneven importance of reasoning steps.&amp;rdquo;
-Motivation While neural symbolic methods demonstrate impressive performance in visual question answering on synthetic images, their performance suffers on real images. This work identifies that the long-tail distribution of visual concepts and unequal importance of reasoning steps in real data are the two key obstacles that limit the models’ real-world potentials.</description>
+      <guid>/post/iccv-21-calibrating-concepts-and-operations--towards-symbolic-reasoning-on-real-images/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://s1.ax1x.com/2023/05/18/p9fBcCR.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;Figure 1: Statistics and examples from the synthetic CLEVR dataset and the real GQA dataset. Compared to the synthetic dataset, VQA on real data needs to deal with long-tail concept distribution and uneven importance of reasoning steps.&amp;rdquo;&lt;/p&gt;&#xA;&lt;h3 id=&#34;motivation&#34;&gt;Motivation&lt;/h3&gt;&#xA;&lt;p&gt;While neural symbolic methods demonstrate impressive performance in visual question answering on synthetic images, &lt;em&gt;their performance suffers on real images&lt;/em&gt;. This work identifies that the &lt;strong&gt;long-tail distribution of visual concepts&lt;/strong&gt; and &lt;strong&gt;unequal importance of reasoning steps&lt;/strong&gt; in real data are the two key obstacles that limit the models’ real-world potentials.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
