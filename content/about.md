@@ -35,6 +35,12 @@ Artificial Intelligence for Healthcare
 
 - National Scholarship of China, **2020**
 
+## Activities
+
+- Had an academic visit at University of Cambridge, University of Oxford, Imperial College London, and Cardiff University, **2025.10**
+- Delivered a speech as a student representative at the welcome meeting of iBHE, SIGS, Tsinghua University, **2025.9**
+- Had an academic visit at The Hong Kong University of Science and Technology, **2025.3**
+
 ## Contact
 
 Contact this email if you are willing to collaborate: lyang22@mails.tsinghua.edu.cn
