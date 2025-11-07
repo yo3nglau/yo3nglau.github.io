@@ -1,0 +1,33 @@
+{{- /* 参数读取 */ -}}
+{{- $fontFile := resources.Get (printf "fonts/%s" (.Get "name")) -}}
+{{- if not $fontFile }}
+  {{- errorf "Shortcode 'font': 找不到 assets/fonts/%s" (.Get "name") -}}
+{{- end }}
+
+{{- /* 根据后缀决定 format */ -}}
+{{- $ext := strings.TrimPrefix "." (path.Ext (.Get "name")) | lower -}}
+{{- $format := "" -}}
+{{- if eq $ext "otf" }}
+  {{- $format = "opentype" -}}
+{{- else if eq $ext "ttf" }}
+  {{- $format = "truetype" -}}
+{{- else }}
+  {{- errorf "Shortcode 'font': 不支持的字体格式 %s" $ext -}}
+{{- end }}
+
+{{- /* 唯一 key：字体名 + 后缀，防止重复注入 */ -}}
+{{- $key := printf "font_%s_injected" (strings.Replace (.Get "name") "." "_" -1) -}}
+{{- if not ($.Page.Scratch.Get $key) -}}
+<style>
+@font-face{
+  font-family: "{{ .Get "name" }}";
+  src: url("{{ $fontFile.RelPermalink }}") format("{{ $format }}");
+  font-display: swap;
+}
+</style>
+{{- $.Page.Scratch.Set $key true -}}
+{{- end -}}
+
+<span style="font-family: '{{ .Get "name" }}', serif;">
+{{- .Inner | markdownify -}}
+</span>
