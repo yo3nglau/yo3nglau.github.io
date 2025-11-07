@@ -2,7 +2,7 @@
 
 This is the resources of my academic website: https://yo3nglau.github.io/.
 
-The website comprises TBD.
+The website comprises my CVs and extensive blogs.
 
 ## Traits
 
