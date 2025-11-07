@@ -97,3 +97,7 @@ conda install numpy
 ## Summary
 
 By following this logical flow—from GPU monitoring to task classification, then to CPU and code inspection—you can efficiently pinpoint what's slowing down your training and take the correct action to get back to full speed.
+
+## Resources
+
+[AutoDL Docs](https://api.autodl.com/docs/perf/)
