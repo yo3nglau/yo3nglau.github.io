@@ -5,7 +5,7 @@ date: '2023-05-22'
 categories:
   - Daily Writing
 tags:
-  - blog
+  - Guide
 toc: true
 ---
 

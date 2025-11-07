@@ -5,7 +5,7 @@ date: '2023-05-23'
 categories:
   - Computer Technology
 tags:
-  - google chrome
+  - Google Chrome
 ---
 
 **Last Updated: 2025-11-07**

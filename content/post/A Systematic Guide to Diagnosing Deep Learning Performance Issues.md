@@ -6,7 +6,7 @@ categories:
   - Computer Technology
   - Deep Learning
 tags:
-  - guide
+  - Guide
 ---
 
 ## Preface
