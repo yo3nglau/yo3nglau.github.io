@@ -8,7 +8,7 @@ tags:
   - google chrome
 ---
 
-**Updated: 2025-11-07**
+**Last Updated: 2025-11-07**
 
 ## Method
 

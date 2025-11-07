@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Computer Technology on yo3nglau academic website</title>
-    <link>/categories/computer-technology/</link>
-    <description>Recent content in Computer Technology on yo3nglau academic website</description>
+    <title>Deep Learning on yo3nglau academic website</title>
+    <link>/categories/deep-learning/</link>
+    <description>Recent content in Deep Learning on yo3nglau academic website</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 07 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/categories/computer-technology/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/categories/deep-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Systematic Guide to Diagnosing Deep Learning Performance Issues</title>
       <link>/post/a-systematic-guide-to-diagnosing-deep-learning-performance-issues/</link>
       <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
       <guid>/post/a-systematic-guide-to-diagnosing-deep-learning-performance-issues/</guid>
       <description>&lt;h2 id=&#34;preface&#34;&gt;Preface&lt;/h2&gt;&#xA;&lt;p&gt;Training deep learning models can sometimes feel like waiting for water to boil—it tests your patience. When your model is training slower than expected, a systematic approach is key to identifying the bottleneck. Here is a step-by-step guide to diagnosing and fixing these performance issues.&lt;/p&gt;&#xA;&lt;h2 id=&#34;step-0-the-first-check---gpu-utilization&#34;&gt;&lt;strong&gt;Step 0: The First Check - GPU Utilization&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Your first command should always be to check if the GPU is even being used.&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;nvidia-smi -l 1&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;This command provides a real-time view of your GPU&amp;rsquo;s status. The critical metric is &lt;code&gt;GPU-Util&lt;/code&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Clear Specific Website Cache in Google Chrome</title>
-      <link>/post/clear-specific-website-cache-in-google-chrome/</link>
-      <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
-      <guid>/post/clear-specific-website-cache-in-google-chrome/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Last Updated: 2025-11-07&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;method&#34;&gt;Method&lt;/h2&gt;&#xA;&lt;ol start=&#34;0&#34;&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Press &lt;kbd&gt;F12&lt;/kbd&gt; to reach &lt;em&gt;developer toolbox&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Choose &lt;em&gt;Network&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&amp;#x2705; Disable cache&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Press and hold &lt;em&gt;reload button&lt;/em&gt; on the left top of Chrome&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Choose &lt;em&gt;Empty Cache and Hard Reload&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
   </channel>
 </rss>

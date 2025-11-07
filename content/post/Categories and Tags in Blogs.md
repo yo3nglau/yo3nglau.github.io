@@ -9,7 +9,7 @@ tags:
 toc: true
 ---
 
-**Updated: 2025-11-04**
+**Last Updated: 2025-11-04**
 
 ## TL;DR
 
