@@ -8,12 +8,13 @@ tags:
   - google chrome
 ---
 
-**Updated: 2025-11-04**
+**Updated: 2025-11-07**
 
 ## Method
 
-1. Press <kbd>F12</kbd> to reach *developer toolbox*
-2. Choose *Network*
-3. :white_check_mark: Disable cache
-4. Press and hold *reload button* on the left top of Chrome
-5. Choose *Empty Cache and Hard Reload*
+0. Press <kbd>F12</kbd> to reach *developer toolbox*
+
+1. Choose *Network*
+2. :white_check_mark: Disable cache
+3. Press and hold *reload button* on the left top of Chrome
+4. Choose *Empty Cache and Hard Reload*

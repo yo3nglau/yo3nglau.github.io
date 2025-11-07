@@ -10,10 +10,17 @@
     <atom:link href="/categories/computer-technology/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Clear Specific Website Cache in Google Chrome</title>
+      <link>/post/a-systematic-guide-to-diagnosing-deep-learning-performance-issues/</link>
+      <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
+      <guid>/post/a-systematic-guide-to-diagnosing-deep-learning-performance-issues/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Updated: 2025-11-04&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;method&#34;&gt;Method&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Press &lt;kbd&gt;F12&lt;/kbd&gt; to reach &lt;em&gt;developer toolbox&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;Choose &lt;em&gt;Network&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&amp;#x2705; Disable cache&lt;/li&gt;&#xA;&lt;li&gt;Press and hold &lt;em&gt;reload button&lt;/em&gt; on the left top of Chrome&lt;/li&gt;&#xA;&lt;li&gt;Choose &lt;em&gt;Empty Cache and Hard Reload&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>Clear Specific Website Cache in Google Chrome</title>
       <link>/post/clear-specific-website-cache-in-google-chrome/</link>
       <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
       <guid>/post/clear-specific-website-cache-in-google-chrome/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Updated: 2025-11-04&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;method&#34;&gt;Method&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Press &lt;kbd&gt;F12&lt;/kbd&gt; to reach &lt;em&gt;developer toolbox&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;Choose &lt;em&gt;Network&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&amp;#x2705; Disable cache&lt;/li&gt;&#xA;&lt;li&gt;Press and hold &lt;em&gt;reload button&lt;/em&gt; on the left top of Chrome&lt;/li&gt;&#xA;&lt;li&gt;Choose &lt;em&gt;Empty Cache and Hard Reload&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Updated: 2025-11-07&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;method&#34;&gt;Method&lt;/h2&gt;&#xA;&lt;ol start=&#34;0&#34;&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Press &lt;kbd&gt;F12&lt;/kbd&gt; to reach &lt;em&gt;developer toolbox&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Choose &lt;em&gt;Network&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&amp;#x2705; Disable cache&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Press and hold &lt;em&gt;reload button&lt;/em&gt; on the left top of Chrome&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Choose &lt;em&gt;Empty Cache and Hard Reload&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
   </channel>
 </rss>
