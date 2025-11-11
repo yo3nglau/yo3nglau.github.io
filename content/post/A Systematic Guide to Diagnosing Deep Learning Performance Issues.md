@@ -7,18 +7,21 @@ categories:
   - Deep Learning
 tags:
   - Guide
+toc: true
 ---
+
+**Last Updated: 2025-11-10**
 
 ## Preface
 
 Training deep learning models can sometimes feel like waiting for water to boil—it tests your patience. When your model is training slower than expected, a systematic approach is key to identifying the bottleneck. Here is a step-by-step guide to diagnosing and fixing these performance issues.
 
-## **Step 0: The First Check - GPU Utilization**
+## Step 0: The First Check - GPU Utilization
 
 Your first command should always be to check if the GPU is even being used.
 
 ```
-nvidia-smi -l 1
+watch -n 1 nvidia-smi
 ```
 
 This command provides a real-time view of your GPU's status. The critical metric is `GPU-Util`.
@@ -27,7 +30,7 @@ This command provides a real-time view of your GPU's status. The critical metric
 - **Sustained >90% Utilization:** Congratulations! Your GPU is the bottleneck. To speed things up, consider using multi-GPU training or a more powerful GPU.
 - **Low & Fluctuating Utilization (e.g., peaks below 50%):** This indicates a problem where the GPU is waiting for work. The bottleneck is likely elsewhere, often the CPU or data pipeline.
 
-## **Step 1: Classify Your Training Task**
+## Step 1: Classify Your Training Task
 
 Understanding the nature of your task helps you know what to expect. The performance characteristics can be categorized as follows:
 
@@ -40,7 +43,7 @@ Understanding the nature of your task helps you know what to expect. The perform
 
 For Scenarios 1 and 2, optimization focus should be on choosing the right hardware (better CPU for #2) and code structure. For Scenarios 3 and 4, if GPU usage is low, you need to dig deeper.
 
-## **Step 2: Check CPU Utilization**
+## Step 2: Check CPU Utilization
 
 If your GPU usage is low and fluctuating (characteristic of Scenario 2 or 4), the CPU is the prime suspect.
 
@@ -48,7 +51,7 @@ If your GPU usage is low and fluctuating (characteristic of Scenario 2 or 4), th
 2. **High CPU Usage (~100% * `core_count`):** Your CPU is the bottleneck. **Solution:** Migrate your project to a host with more CPU cores.
 3. **Low CPU Usage:** Your code isn't efficiently leveraging the CPU for data loading. **Solution:** Increase the `num_workers`parameter in your PyTorch `DataLoader`. A good starting point is slightly less than the number of available CPU cores. Experiment to find the optimal value.
 
-## **Step 3: Code-Level Optimizations**
+## Step 3: Code-Level Optimizations
 
 If hardware isn't the clear issue, it's time to look at your code.
 
@@ -60,7 +63,7 @@ If hardware isn't the clear issue, it's time to look at your code.
 
 ## Common Pitfalls and Advanced Tips
 
-### **1. The PyTorch Threading Issue on Multi-Card Instances**
+### 1. The PyTorch Threading Issue on Multi-Card Instances
 
 **Symptoms:** You rent a multi-GPU instance to run different experiments on different cards, but everything runs extremely slowly, with low utilization on both CPU and GPU.
 
@@ -68,7 +71,7 @@ If hardware isn't the clear issue, it's time to look at your code.
 
 **Solution:** Limit the number of threads per process by adding `torch.set_num_threads(N)`to your code, where `N`is a number like 4 or 8, depending on your core count and the number of concurrent experiments.
 
-### **2. The NumPy Performance Trap on Intel CPUs**
+### 2. The NumPy Performance Trap on Intel CPUs
 
 **Symptoms:** Extremely high CPU usage (all cores maxed out) but low GPU usage, specifically on Intel CPUs.
 
