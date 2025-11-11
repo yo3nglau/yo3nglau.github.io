@@ -1,12 +1,13 @@
 ---
-title: Screen Command in Linux
+title: Screen Command for Long-Running Process Management
 author: yo3nglau
 date: '2025-11-10'
 categories:
   - Computer Technology
 tags:
   - Guide
-  - Linux
+  - Linux Command
+  - Remote Server
 toc: true
 ---
 
@@ -23,7 +24,7 @@ When managing long-running processes in a Linux environment, maintaining persist
 ### Install the Screen Command
 
 ```bash
-sudo apt install screen  # For Debian/Ubuntu
+sudo apt install screen  # for Debian/Ubuntu
 ```
 
 ### Start a New Naming Screen Session for Organization

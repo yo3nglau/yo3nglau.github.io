@@ -6,20 +6,34 @@
     <description>Recent content in Tags on yo3nglau academic website</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Guide</title>
       <link>/tags/guide/</link>
-      <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 11 Nov 2025 00:00:00 +0000</pubDate>
       <guid>/tags/guide/</guid>
       <description></description>
     </item>
     <item>
-      <title>Linux</title>
-      <link>/tags/linux/</link>
+      <title>Remote Server</title>
+      <link>/tags/remote-server/</link>
+      <pubDate>Tue, 11 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/tags/remote-server/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TensorBoard</title>
+      <link>/tags/tensorboard/</link>
+      <pubDate>Tue, 11 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/tags/tensorboard/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux Command</title>
+      <link>/tags/linux-command/</link>
       <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/tags/linux/</guid>
+      <guid>/tags/linux-command/</guid>
       <description></description>
     </item>
     <item>
