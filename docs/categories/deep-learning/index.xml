@@ -9,10 +9,10 @@
     <lastBuildDate>Fri, 07 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/deep-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>A Systematic Guide to Diagnosing Deep Learning Performance Issues</title>
-      <link>/post/a-systematic-guide-to-diagnosing-deep-learning-performance-issues/</link>
+      <title>Diagnose DL Computing Performance Issues</title>
+      <link>/post/diagnose-dl-computing-performance-issues/</link>
       <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/post/a-systematic-guide-to-diagnosing-deep-learning-performance-issues/</guid>
+      <guid>/post/diagnose-dl-computing-performance-issues/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Last Updated: 2025-11-10&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;preface&#34;&gt;Preface&lt;/h2&gt;&#xA;&lt;p&gt;Training deep learning models can sometimes feel like waiting for water to boil—it tests your patience. When your model is training slower than expected, a systematic approach is key to identifying the bottleneck. Here is a step-by-step guide to diagnosing and fixing these performance issues.&lt;/p&gt;&#xA;&lt;h2 id=&#34;step-0-the-first-check---gpu-utilization&#34;&gt;Step 0: The First Check - GPU Utilization&lt;/h2&gt;&#xA;&lt;p&gt;Your first command should always be to check if the GPU is even being used.&lt;/p&gt;</description>
     </item>
   </channel>

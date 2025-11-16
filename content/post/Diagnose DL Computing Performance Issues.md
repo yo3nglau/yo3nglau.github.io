@@ -1,5 +1,5 @@
 ---
-title: A Systematic Guide to Diagnosing Deep Learning Performance Issues
+title: Diagnose DL Computing Performance Issues
 author: yo3nglau
 date: '2025-11-07'
 categories:

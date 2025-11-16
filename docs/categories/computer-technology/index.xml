@@ -6,8 +6,22 @@
     <description>Recent content in Computer Technology on yo3nglau academic website</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/computer-technology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OpenBLAS vs. MKL NumPy</title>
+      <link>/post/openblas-vs.-mkl-numpy/</link>
+      <pubDate>Sun, 16 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/post/openblas-vs.-mkl-numpy/</guid>
+      <description>&lt;h2 id=&#34;preface&#34;&gt;Preface&lt;/h2&gt;&#xA;&lt;p&gt;When working with scientific computing or machine learning in Python, NumPy is one of the core dependencies for numerical operations. Behind the scenes, NumPy relies on optimized linear algebra libraries—primarily &lt;strong&gt;OpenBLAS&lt;/strong&gt; or &lt;strong&gt;Intel MKL (Math Kernel Library)&lt;/strong&gt;—to accelerate matrix multiplications, convolutions, decompositions, and other dense numerical routines.&#xA;This article provides a clear comparison between the OpenBLAS-based and MKL-based NumPy distributions, helping you make an informed choice for your development environment.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fast Python Package and Project Management with uv</title>
+      <link>/post/fast-python-package-and-project-management-with-uv/</link>
+      <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/post/fast-python-package-and-project-management-with-uv/</guid>
+      <description>&lt;h2 id=&#34;preface&#34;&gt;Preface&lt;/h2&gt;&#xA;&lt;p&gt;In today’s Python ecosystem, managing dependencies, virtual environments, project configuration and publishing can involve a variety of tools—&lt;code&gt;pip&lt;/code&gt;, &lt;code&gt;virtualenv/venv&lt;/code&gt;, &lt;code&gt;pyenv&lt;/code&gt;, &lt;code&gt;poetry&lt;/code&gt;, &lt;code&gt;pip‑tools&lt;/code&gt;, and more. The tool &lt;code&gt;uv&lt;/code&gt; is designed to unify and simplify that workflow into a single high-performance solution.&lt;/p&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;uv&lt;/code&gt; is an extremely fast Python package and project manager, written in &lt;code&gt;Rust&lt;/code&gt;.&#xA;It aims to serve as a drop-in replacement for &lt;code&gt;pip&lt;/code&gt; and related tooling, offering additional features such as managed virtual environments, Python version handling, universal lock-files, and project scaffolding.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Run TensorBoard on a Remote Server and View It Locally</title>
       <link>/post/run-tensorboard-on-a-remote-server-and-view-it-locally/</link>
@@ -23,10 +37,10 @@
       <description>&lt;h2 id=&#34;preface&#34;&gt;Preface&lt;/h2&gt;&#xA;&lt;p&gt;When managing long-running processes in a Linux environment, maintaining persistent terminal sessions becomes essential—especially when working over SSH connections. Accidental disconnections can interrupt tasks, terminate important jobs, and disrupt your workflow. This is where the &lt;code&gt;screen&lt;/code&gt; command proves invaluable. It allows users to create detachable terminal sessions that continue running even after the connection is closed.&lt;/p&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;screen&lt;/code&gt; is a terminal multiplexer commonly used in Linux systems. It enables multiple shell sessions to run within a single terminal window. More importantly, it provides the ability to detach from a session without stopping the underlying processes, and later reattach to it seamlessly.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>A Systematic Guide to Diagnosing Deep Learning Performance Issues</title>
-      <link>/post/a-systematic-guide-to-diagnosing-deep-learning-performance-issues/</link>
+      <title>Diagnose DL Computing Performance Issues</title>
+      <link>/post/diagnose-dl-computing-performance-issues/</link>
       <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/post/a-systematic-guide-to-diagnosing-deep-learning-performance-issues/</guid>
+      <guid>/post/diagnose-dl-computing-performance-issues/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Last Updated: 2025-11-10&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;preface&#34;&gt;Preface&lt;/h2&gt;&#xA;&lt;p&gt;Training deep learning models can sometimes feel like waiting for water to boil—it tests your patience. When your model is training slower than expected, a systematic approach is key to identifying the bottleneck. Here is a step-by-step guide to diagnosing and fixing these performance issues.&lt;/p&gt;&#xA;&lt;h2 id=&#34;step-0-the-first-check---gpu-utilization&#34;&gt;Step 0: The First Check - GPU Utilization&lt;/h2&gt;&#xA;&lt;p&gt;Your first command should always be to check if the GPU is even being used.&lt;/p&gt;</description>
     </item>
     <item>
