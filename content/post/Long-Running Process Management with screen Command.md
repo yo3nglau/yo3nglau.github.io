@@ -1,5 +1,5 @@
 ---
-title: Screen Command for Long-Running Process Management
+title: Long-Running Process Management with screen Command
 author: yo3nglau
 date: '2025-11-10'
 categories:

@@ -31,7 +31,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 
 ## Basic usage
 
-### Creating a new project
+### Creating a New Project
 
 You can initialize a project in the working directory:
 
@@ -40,7 +40,7 @@ cd working_dir
 uv init
 ```
 
-### Create a virtual environment
+### Create a Virtual Environment
 
 ```bash
 uv venv .venv --python 3.12
@@ -48,7 +48,7 @@ uv venv .venv --python 3.12
 
 Here `uv` automatically manages and creates the environment.
 
-### Manage dependencies
+### Manage Dependencies
 
 You can add dependencies to your `pyproject.toml` with the `uv add` command. This will also update the lockfile and project environment:
 
@@ -79,15 +79,11 @@ To remove a package, you can use `uv remove`:
 uv remove requests
 ```
 
-
-
-### Install dependencies (pip-style interface)
+### Install Dependencies (pip-style interface)
 
 ```bash
 uv pip install requests
 ```
-
-
 
 ## Commands
 

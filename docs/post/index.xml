@@ -9,6 +9,13 @@
     <lastBuildDate>Sun, 16 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Mirrors for pip, conda, and uv</title>
+      <link>/post/mirrors-for-pip-conda-and-uv/</link>
+      <pubDate>Sun, 16 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/post/mirrors-for-pip-conda-and-uv/</guid>
+      <description>&lt;h2 id=&#34;preface&#34;&gt;Preface&lt;/h2&gt;&#xA;&lt;p&gt;Efficient Python development often relies on fast and stable package downloads. Network latency or regional restrictions can slow down installations from default repositories. Configuring &lt;strong&gt;mirror sources&lt;/strong&gt; for &lt;code&gt;pip&lt;/code&gt; and &lt;code&gt;conda&lt;/code&gt; is a simple and powerful way to speed up package installations, improve reliability, and standardize environments.&lt;/p&gt;&#xA;&lt;p&gt;This post provides a concise introduction to why mirrors matter and how to configure, add, remove, and inspect them using practical commands.&lt;/p&gt;&#xA;&lt;h2 id=&#34;advantages-of-mirrors&#34;&gt;Advantages of Mirrors&lt;/h2&gt;&#xA;&lt;p&gt;Mirror sources are synchronized replicas of official package repositories. Common benefits include:&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>OpenBLAS vs. MKL NumPy</title>
       <link>/post/openblas-vs.-mkl-numpy/</link>
       <pubDate>Sun, 16 Nov 2025 00:00:00 +0000</pubDate>
@@ -30,17 +37,17 @@
       <description>&lt;h2 id=&#34;preface&#34;&gt;Preface&lt;/h2&gt;&#xA;&lt;p&gt;When training machine learning models on remote servers, monitoring metrics such as loss, accuracy, and learning rate becomes essential. TensorBoard is a powerful visualization toolkit from TensorFlow that makes this possible. However, since training often takes place on remote machines without direct GUI access, developers must forward TensorBoard to their local browser. Fortunately, this is simple with secure SSH tunneling.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-run-tensorboard-remotely&#34;&gt;Why Run TensorBoard Remotely?&lt;/h2&gt;&#xA;&lt;p&gt;Many training workloads:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Require powerful GPUs only available on remote servers&lt;/li&gt;&#xA;&lt;li&gt;Run for long periods and need continuous observation&lt;/li&gt;&#xA;&lt;li&gt;Produce logs that are easiest to analyze visually&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Instead of transferring logs back to your local machine, it is more efficient to stream the TensorBoard UI directly to your browser.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Screen Command for Long-Running Process Management</title>
-      <link>/post/screen-command-for-long-running-process-management/</link>
+      <title>Long-Running Process Management with screen Command</title>
+      <link>/post/long-running-process-management-with-screen-command/</link>
       <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/post/screen-command-for-long-running-process-management/</guid>
+      <guid>/post/long-running-process-management-with-screen-command/</guid>
       <description>&lt;h2 id=&#34;preface&#34;&gt;Preface&lt;/h2&gt;&#xA;&lt;p&gt;When managing long-running processes in a Linux environment, maintaining persistent terminal sessions becomes essential—especially when working over SSH connections. Accidental disconnections can interrupt tasks, terminate important jobs, and disrupt your workflow. This is where the &lt;code&gt;screen&lt;/code&gt; command proves invaluable. It allows users to create detachable terminal sessions that continue running even after the connection is closed.&lt;/p&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;screen&lt;/code&gt; is a terminal multiplexer commonly used in Linux systems. It enables multiple shell sessions to run within a single terminal window. More importantly, it provides the ability to detach from a session without stopping the underlying processes, and later reattach to it seamlessly.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Diagnose DL Computing Performance Issues</title>
-      <link>/post/diagnose-dl-computing-performance-issues/</link>
+      <title>Diagnose Issues of Deep Learning Computing Performance</title>
+      <link>/post/diagnose-issues-of-deep-learning-computing-performance/</link>
       <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/post/diagnose-dl-computing-performance-issues/</guid>
+      <guid>/post/diagnose-issues-of-deep-learning-computing-performance/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Last Updated: 2025-11-10&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;preface&#34;&gt;Preface&lt;/h2&gt;&#xA;&lt;p&gt;Training deep learning models can sometimes feel like waiting for water to boil—it tests your patience. When your model is training slower than expected, a systematic approach is key to identifying the bottleneck. Here is a step-by-step guide to diagnosing and fixing these performance issues.&lt;/p&gt;&#xA;&lt;h2 id=&#34;step-0-the-first-check---gpu-utilization&#34;&gt;Step 0: The First Check - GPU Utilization&lt;/h2&gt;&#xA;&lt;p&gt;Your first command should always be to check if the GPU is even being used.&lt;/p&gt;</description>
     </item>
     <item>

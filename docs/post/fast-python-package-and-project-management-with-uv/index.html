@@ -50,10 +50,10 @@
     <li><a href="#install-uv">Install uv</a></li>
     <li><a href="#basic-usage">Basic usage</a>
       <ul>
-        <li><a href="#creating-a-new-project">Creating a new project</a></li>
-        <li><a href="#create-a-virtual-environment">Create a virtual environment</a></li>
-        <li><a href="#manage-dependencies">Manage dependencies</a></li>
-        <li><a href="#install-dependencies-pip-style-interface">Install dependencies (pip-style interface)</a></li>
+        <li><a href="#creating-a-new-project">Creating a New Project</a></li>
+        <li><a href="#create-a-virtual-environment">Create a Virtual Environment</a></li>
+        <li><a href="#manage-dependencies">Manage Dependencies</a></li>
+        <li><a href="#install-dependencies-pip-style-interface">Install Dependencies (pip-style interface)</a></li>
       </ul>
     </li>
     <li><a href="#commands">Commands</a>
@@ -82,16 +82,16 @@ Example:</p>
 curl -LsSf https://astral.sh/uv/install.sh | sh
 </code></pre>
 <h2 id="basic-usage">Basic usage</h2>
-<h3 id="creating-a-new-project">Creating a new project</h3>
+<h3 id="creating-a-new-project">Creating a New Project</h3>
 <p>You can initialize a project in the working directory:</p>
 <pre><code class="language-bash">cd working_dir
 uv init
 </code></pre>
-<h3 id="create-a-virtual-environment">Create a virtual environment</h3>
+<h3 id="create-a-virtual-environment">Create a Virtual Environment</h3>
 <pre><code class="language-bash">uv venv .venv --python 3.12
 </code></pre>
 <p>Here <code>uv</code> automatically manages and creates the environment.</p>
-<h3 id="manage-dependencies">Manage dependencies</h3>
+<h3 id="manage-dependencies">Manage Dependencies</h3>
 <p>You can add dependencies to your <code>pyproject.toml</code> with the <code>uv add</code> command. This will also update the lockfile and project environment:</p>
 <pre><code class="language-bash">uv add requests
 </code></pre>
@@ -109,7 +109,7 @@ uv add -r requirements.txt
 <p>To remove a package, you can use <code>uv remove</code>:</p>
 <pre><code class="language-bash">uv remove requests
 </code></pre>
-<h3 id="install-dependencies-pip-style-interface">Install dependencies (pip-style interface)</h3>
+<h3 id="install-dependencies-pip-style-interface">Install Dependencies (pip-style interface)</h3>
 <pre><code class="language-bash">uv pip install requests
 </code></pre>
 <h2 id="commands">Commands</h2>

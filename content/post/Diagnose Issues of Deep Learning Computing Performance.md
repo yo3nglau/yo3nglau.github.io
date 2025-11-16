@@ -1,5 +1,5 @@
 ---
-title: Diagnose DL Computing Performance Issues
+title: Diagnose Issues of Deep Learning Computing Performance
 author: yo3nglau
 date: '2025-11-07'
 categories:
