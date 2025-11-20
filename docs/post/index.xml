@@ -6,8 +6,15 @@
     <description>Recent content in Posts on yo3nglau academic website</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 16 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Add Application Shortcuts to the Start Menu in Windows</title>
+      <link>/post/shortcut/</link>
+      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/post/shortcut/</guid>
+      <description>&lt;h2 id=&#34;preface&#34;&gt;Preface&lt;/h2&gt;&#xA;&lt;p&gt;Keeping your Start menu organized is an easy way to boost your productivity and access your applications quickly. Whether you want to pin frequently used programs or create custom folders, Windows provides simple methods to add and manage Start menu shortcuts. This introductory guide walks you through the essentials in a clear and practical way.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-add-shortcuts-to-the-start-menu&#34;&gt;Why Add Shortcuts to the Start Menu?&lt;/h2&gt;&#xA;&lt;p&gt;The Start menu serves as the central hub for applications, system settings, and search. Adding your own shortcuts helps you:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Mirrors for pip, conda, and uv</title>
       <link>/post/mirrors-for-pip-conda-and-uv/</link>
