@@ -10,10 +10,24 @@
     <atom:link href="/tags/guide/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Add Application Shortcuts to the Start Menu in Windows</title>
-      <link>/post/shortcut/</link>
+      <link>/post/add-application-shortcuts-to-the-start-menu-in-windows/</link>
       <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/post/shortcut/</guid>
+      <guid>/post/add-application-shortcuts-to-the-start-menu-in-windows/</guid>
       <description>&lt;h2 id=&#34;preface&#34;&gt;Preface&lt;/h2&gt;&#xA;&lt;p&gt;Keeping your Start menu organized is an easy way to boost your productivity and access your applications quickly. Whether you want to pin frequently used programs or create custom folders, Windows provides simple methods to add and manage Start menu shortcuts. This introductory guide walks you through the essentials in a clear and practical way.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-add-shortcuts-to-the-start-menu&#34;&gt;Why Add Shortcuts to the Start Menu?&lt;/h2&gt;&#xA;&lt;p&gt;The Start menu serves as the central hub for applications, system settings, and search. Adding your own shortcuts helps you:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Understanding hiberfil.sys in Windows</title>
+      <link>/post/understanding-hiberfil.sys-in-windows/</link>
+      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/post/understanding-hiberfil.sys-in-windows/</guid>
+      <description>&lt;h2 id=&#34;preface&#34;&gt;Preface&lt;/h2&gt;&#xA;&lt;p&gt;Efficient memory management is essential for maintaining system stability and performance. In Windows, one of the core components enabling this is &lt;code&gt;pagefile.sys&lt;/code&gt;—a hidden system file that acts as an extension of your physical memory. Although it typically works silently in the background, understanding its purpose and proper configuration can help you optimize system performance and troubleshoot memory-related issues.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-pagefilesys&#34;&gt;What Is &lt;code&gt;pagefile.sys&lt;/code&gt;?&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;pagefile.sys&lt;/code&gt; is Windows’ &lt;strong&gt;virtual memory&lt;/strong&gt; file. When your system’s physical RAM is fully utilized, Windows uses this file as overflow space to temporarily store data that does not need to remain in active memory. By doing so, the operating system can continue running applications smoothly even when RAM usage peaks.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Understanding pagefile.sys in Windows</title>
+      <link>/post/understanding-pagefile.sys-in-windows/</link>
+      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/post/understanding-pagefile.sys-in-windows/</guid>
+      <description>&lt;h2 id=&#34;preface&#34;&gt;Preface&lt;/h2&gt;&#xA;&lt;p&gt;Efficient memory management is essential for maintaining system stability and performance. In Windows, one of the core components enabling this is &lt;code&gt;pagefile.sys&lt;/code&gt;—a hidden system file that acts as an extension of your physical memory. Although it typically works silently in the background, understanding its purpose and proper configuration can help you optimize system performance and troubleshoot memory-related issues.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-pagefilesys&#34;&gt;What Is &lt;code&gt;pagefile.sys&lt;/code&gt;?&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;pagefile.sys&lt;/code&gt; is Windows’ &lt;strong&gt;virtual memory&lt;/strong&gt; file. When your system’s physical RAM is fully utilized, Windows uses this file as overflow space to temporarily store data that does not need to remain in active memory. By doing so, the operating system can continue running applications smoothly even when RAM usage peaks.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Mirrors for pip, conda, and uv</title>
