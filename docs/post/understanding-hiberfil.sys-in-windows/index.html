@@ -28,7 +28,7 @@
 <div class="article-meta">
 <h1><span class="title">Understanding hiberfil.sys in Windows</span></h1>
 <h2 class="author">yo3nglau</h2>
-<h2 class="date">2025/11/20</h2>
+<h2 class="date">2025/11/21</h2>
 <p class="terms">
   
   
@@ -46,16 +46,24 @@
 <nav id="TableOfContents">
   <ul>
     <li><a href="#preface">Preface</a></li>
-    <li><a href="#what-is-pagefilesys">What Is <code>pagefile.sys</code>?</a></li>
-    <li><a href="#how-does-it-work">How Does It Work?</a></li>
-    <li><a href="#where-is-pagefilesys-located">Where Is <code>pagefile.sys</code> Located?</a></li>
-    <li><a href="#should-you-adjust-the-page-file">Should You Adjust the Page File?</a>
+    <li><a href="#what-is-hiberfilsys">What Is <code>hiberfil.sys</code>?</a></li>
+    <li><a href="#where-is-it-located">Where Is It Located?</a></li>
+    <li><a href="#why-does-hiberfilsys-take-so-much-space">Why Does <code>hiberfil.sys</code> Take So Much Space?</a></li>
+    <li><a href="#how-windows-uses-the-file">How Windows Uses the File</a>
       <ul>
-        <li><a href="#when-a-custom-page-file-may-help">When a Custom Page File May Help</a></li>
-        <li><a href="#when-you-should-not-disable-it">When You Should Not Disable It</a></li>
+        <li><a href="#1-hibernate">1. Hibernate</a></li>
+        <li><a href="#2-fast-startup">2. Fast Startup</a></li>
       </ul>
     </li>
-    <li><a href="#how-to-configure-pagefilesys">How to Configure <code>pagefile.sys</code></a></li>
+    <li><a href="#can-you-remove-or-resize-hiberfilsys">Can You Remove or Resize <code>hiberfil.sys</code>?</a>
+      <ul>
+        <li><a href="#disable-hibernate-and-remove-the-file">Disable Hibernate (and remove the file)</a></li>
+        <li><a href="#re-enable-hibernate">Re-enable Hibernate</a></li>
+        <li><a href="#resize-the-file-for-fast-startup-only">Resize the File (for Fast Startup only)</a></li>
+        <li><a href="#restore-the-default-file-size">Restore the Default File Size</a></li>
+      </ul>
+    </li>
+    <li><a href="#when-should-you-disable-hiberfilsys">When Should You Disable <code>hiberfil.sys</code>?</a></li>
     <li><a href="#best-practices">Best Practices</a></li>
     <li><a href="#conclusion">Conclusion</a></li>
   </ul>
@@ -64,53 +72,71 @@
 
 <main>
 <h2 id="preface">Preface</h2>
-<p>Efficient memory management is essential for maintaining system stability and performance. In Windows, one of the core components enabling this is <code>pagefile.sys</code>—a hidden system file that acts as an extension of your physical memory. Although it typically works silently in the background, understanding its purpose and proper configuration can help you optimize system performance and troubleshoot memory-related issues.</p>
-<h2 id="what-is-pagefilesys">What Is <code>pagefile.sys</code>?</h2>
-<p><code>pagefile.sys</code> is Windows’ <strong>virtual memory</strong> file. When your system’s physical RAM is fully utilized, Windows uses this file as overflow space to temporarily store data that does not need to remain in active memory. By doing so, the operating system can continue running applications smoothly even when RAM usage peaks.</p>
-<p>In short, <code>pagefile.sys</code> helps Windows:</p>
-<ul>
-<li>Prevent application crashes when RAM is insufficient</li>
-<li>Keep the system responsive under heavy workloads</li>
-<li>Support memory-intensive tasks such as large spreadsheets, virtual machines, or multimedia processing</li>
-</ul>
-<h2 id="how-does-it-work">How Does It Work?</h2>
-<p>Windows uses a combination of <strong>physical RAM</strong> and <strong>virtual memory</strong>. When RAM fills up, the system moves less frequently used memory pages to the page file. This frees RAM for active tasks while providing a fallback mechanism during memory pressure.</p>
-<p>Although reading from disk is slower than from RAM, the page file prevents sudden performance drops and system instability.</p>
-<h2 id="where-is-pagefilesys-located">Where Is <code>pagefile.sys</code> Located?</h2>
-<p>By default, <code>pagefile.sys</code> resides in the root directory of the system drive, typically:</p>
-<pre><code>C:\pagefile.sys
+<p>Windows relies on several hidden system files to deliver smooth user experiences, especially when managing power states. One of the most important among them is <code>hiberfil.sys</code>, a file directly tied to the operating system’s Hibernate and Fast Startup features. Although it typically remains invisible to everyday users, knowing its purpose can help you manage disk space, optimize system behavior, and troubleshoot power-related issues.</p>
+<h2 id="what-is-hiberfilsys">What Is <code>hiberfil.sys</code>?</h2>
+<p><code>hiberfil.sys</code> is a system file used by Windows to store the contents of your system’s memory (RAM) when the machine enters <strong>Hibernate</strong> mode. During hibernation, Windows saves the entire memory state—including open documents, running applications, and system context—to this file before shutting down. When the system powers back on, it restores the saved data and resumes exactly where you left off.</p>
+<p>This file is also required for <strong>Fast Startup</strong>, a hybrid shutdown mode introduced in modern Windows versions to accelerate boot times.</p>
+<h2 id="where-is-it-located">Where Is It Located?</h2>
+<p><code>hiberfil.sys</code> is stored in the root directory of the system drive:</p>
+<pre><code>C:\hiberfil.sys
 </code></pre>
-<p>It is hidden and protected by the OS, which prevents accidental modifications or deletion.</p>
-<h2 id="should-you-adjust-the-page-file">Should You Adjust the Page File?</h2>
-<p>Most users should leave page file settings <strong>at their default values</strong>, as Windows dynamically manages its size based on system usage. However, advanced users may adjust it in specific scenarios:</p>
-<h3 id="when-a-custom-page-file-may-help">When a Custom Page File May Help</h3>
+<p>It is hidden and protected by the operating system and cannot be opened or edited directly.</p>
+<h2 id="why-does-hiberfilsys-take-so-much-space">Why Does <code>hiberfil.sys</code> Take So Much Space?</h2>
+<p>The size of <code>hiberfil.sys</code> is typically <strong>40–100% of your installed RAM</strong>, depending on system configuration. For example, a PC with 16 GB of RAM may have a hibernation file between 6–16 GB.</p>
+<p>The reason is simple: the file must be large enough to save the system’s memory contents, although Windows uses compression to reduce storage requirements.</p>
+<h2 id="how-windows-uses-the-file">How Windows Uses the File</h2>
+<p>Windows relies on <code>hiberfil.sys</code> in two scenarios:</p>
+<h3 id="1-hibernate">1. Hibernate</h3>
 <ul>
-<li><strong>Low RAM systems</strong>: Increasing the minimum size may reduce “low memory” warnings.</li>
-<li><strong>High-performance systems</strong>: Setting a fixed size can reduce fragmentation.</li>
-<li><strong>Disk space constraints</strong>: Reducing or moving the page file to another drive can free system disk space.</li>
-<li><strong>Debugging</strong>: Certain crash dumps require a minimum page file size.</li>
+<li>Saves the full memory snapshot to disk</li>
+<li>Powers off the system</li>
+<li>Restores everything on the next boot</li>
 </ul>
-<h3 id="when-you-should-not-disable-it">When You Should Not Disable It</h3>
-<p>Disabling the page file entirely can cause system instability, application crashes, or failure to generate crash dumps. Even systems with large RAM (e.g., 32 GB or more) benefit from having a page file.</p>
-<h2 id="how-to-configure-pagefilesys">How to Configure <code>pagefile.sys</code></h2>
-<p>You can adjust virtual memory settings through the Windows GUI:</p>
-<p><strong>Control Panel → System and Security → System → Advanced system settings → Performance (Settings) → Advanced → Virtual memory</strong></p>
-<p>Here, you can:</p>
+<p>Hibernate is ideal for users who want to continue work later without consuming power.</p>
+<h3 id="2-fast-startup">2. Fast Startup</h3>
 <ul>
-<li>Let Windows manage the page file automatically</li>
-<li>Set a custom size</li>
-<li><strong>Move it to another drive</strong></li>
-<li>Disable it (not recommended)</li>
+<li>Saves a partial memory snapshot, mostly kernel and driver data</li>
+<li>Speeds up boot time</li>
+<li>Requires <code>hiberfil.sys</code> to function</li>
 </ul>
+<p>Disabling the file also disables Fast Startup.</p>
+<h2 id="can-you-remove-or-resize-hiberfilsys">Can You Remove or Resize <code>hiberfil.sys</code>?</h2>
+<p>Windows does not allow manual deletion. However, you can disable or adjust it via built-in commands.</p>
+<p><strong>Important</strong>: Run the following commands in an <strong>elevated Command Prompt</strong> (Run as Administrator).</p>
+<h3 id="disable-hibernate-and-remove-the-file">Disable Hibernate (and remove the file)</h3>
+<p>If you do not use Hibernate or Fast Startup:</p>
+<pre><code>powercfg /hibernate off
+</code></pre>
+<p>This removes <code>hiberfil.sys</code> automatically.</p>
+<h3 id="re-enable-hibernate">Re-enable Hibernate</h3>
+<pre><code>powercfg /hibernate on
+</code></pre>
+<h3 id="resize-the-file-for-fast-startup-only">Resize the File (for Fast Startup only)</h3>
+<p>You can reduce its size while keeping Fast Startup:</p>
+<pre><code>powercfg /hibernate /type reduced
+</code></pre>
+<p>This creates a smaller hibernation file used only for kernel memory.</p>
+<h3 id="restore-the-default-file-size">Restore the Default File Size</h3>
+<pre><code>powercfg /hibernate /type full
+</code></pre>
+<h2 id="when-should-you-disable-hiberfilsys">When Should You Disable <code>hiberfil.sys</code>?</h2>
+<p>You may consider disabling hibernation if:</p>
+<ul>
+<li>You need to free several gigabytes of disk space</li>
+<li>You never use Hibernate mode</li>
+<li>You do not rely on Fast Startup</li>
+<li>You are optimizing a virtual machine image</li>
+</ul>
+<p>However, keep in mind that disabling it will remove convenience features and may slightly increase boot times.</p>
 <h2 id="best-practices">Best Practices</h2>
 <ul>
-<li><strong>Keep automatic management enabled</strong> unless you have specific performance requirements.</li>
-<li><strong>Use SSDs</strong> for faster paging if possible.</li>
-<li><strong>Do not delete the file manually</strong>; always use the system settings.</li>
-<li><strong>Ensure the system drive has adequate free space</strong> to accommodate dynamic page file growth.</li>
+<li><strong>Keep it enabled</strong> if you frequently use hibernation or Fast Startup.</li>
+<li><strong>Resize instead of removing</strong> if you only want Fast Startup.</li>
+<li><strong>Avoid manual file deletion</strong>; always use <code>powercfg</code> commands.</li>
+<li><strong>Ensure sufficient disk space</strong> on systems that rely on Hibernate for workflow continuity.</li>
 </ul>
 <h2 id="conclusion">Conclusion</h2>
-<p><code>pagefile.sys</code> is an integral part of Windows memory management. While it operates quietly behind the scenes, it plays a critical role in ensuring performance and stability, especially during heavy workloads. By understanding its purpose and knowing when (and when not) to customize its settings, users can maintain a smoother, more reliable Windows experience.</p>
+<p><code>hiberfil.sys</code> is a crucial component of Windows power management. While it may occupy a significant amount of disk space, it enables fast booting and seamless session restoration. Understanding how it works—and knowing how to control it—allows you to tailor your Windows experience to your performance, power, and storage needs.</p>
 
 </main>
 
